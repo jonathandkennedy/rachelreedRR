@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import { site, images, serviceAreas } from "@/lib/site";
+import { site, images } from "@/lib/site";
 import { getPillars } from "@/lib/practices";
+import { locations } from "@/lib/locations";
 import { reviews } from "@/lib/reviews";
 import { getSortedPosts } from "@/lib/blog";
 import CTASection from "@/components/CTASection";
@@ -251,15 +252,20 @@ export default function HomePage() {
               represents clients throughout the county and surrounding communities.
             </p>
             <ul className="mt-6 flex flex-wrap gap-2">
-              {serviceAreas.map((c) => (
-                <li
-                  key={c}
-                  className="rounded-full border border-line px-3 py-1 text-sm text-muted"
-                >
-                  {c}
+              {locations.map((l) => (
+                <li key={l.slug}>
+                  <Link
+                    href={`/areas-we-serve/${l.slug}`}
+                    className="inline-block rounded-full border border-line px-3 py-1 text-sm text-muted transition-colors hover:border-gold hover:text-cream"
+                  >
+                    {l.city}
+                  </Link>
                 </li>
               ))}
             </ul>
+            <Link href="/areas-we-serve" className="mt-4 inline-block text-sm font-semibold text-gold-light link-underline">
+              View all areas we serve →
+            </Link>
             <address className="mt-6 not-italic text-muted">
               <span className="block font-semibold text-cream">{site.name}</span>
               {site.address.street}

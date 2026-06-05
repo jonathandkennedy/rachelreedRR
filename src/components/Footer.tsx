@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { mainNav, site, serviceAreas } from "@/lib/site";
+import { mainNav, site } from "@/lib/site";
+import { locations } from "@/lib/locations";
 import Logo from "./Logo";
 
 export default function Footer() {
@@ -52,6 +53,7 @@ export default function Footer() {
             <li><Link href="/about" className="text-muted hover:text-cream">About Rachel</Link></li>
             <li><Link href="/reviews" className="text-muted hover:text-cream">Reviews</Link></li>
             <li><Link href="/blog" className="text-muted hover:text-cream">Blog</Link></li>
+            <li><Link href="/areas-we-serve" className="text-muted hover:text-cream">Areas We Serve</Link></li>
             <li><Link href="/contact" className="text-muted hover:text-cream">Contact</Link></li>
             <li>
               <a href={site.profiles.yelp} target="_blank" rel="noopener noreferrer" className="text-muted hover:text-cream">
@@ -69,9 +71,16 @@ export default function Footer() {
 
       <div className="border-t border-line">
         <div className="container-x py-5 text-xs text-muted-dark">
-          <p className="mb-2">
-            <span className="text-muted">Serving:</span>{" "}
-            {serviceAreas.join(" · ")}
+          <p className="mb-2 flex flex-wrap items-center gap-x-2 gap-y-1">
+            <span className="text-muted">Serving:</span>
+            {locations.map((l, i) => (
+              <span key={l.slug}>
+                <Link href={`/areas-we-serve/${l.slug}`} className="hover:text-cream">
+                  {l.city}
+                </Link>
+                {i < locations.length - 1 && <span className="ml-2 text-muted-dark">·</span>}
+              </span>
+            ))}
           </p>
           <div className="flex flex-col items-start justify-between gap-2 sm:flex-row sm:items-center">
             <p>

@@ -457,6 +457,410 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: "how-property-divided-california-divorce",
+    title: "How Is Property Divided in a California Divorce?",
+    metaTitle: "How Is Property Divided in a California Divorce? | Rachel Reed Law",
+    description:
+      "California is a community-property state — but dividing assets is rarely simple. A Ventura divorce attorney explains community vs. separate property and what's really at stake.",
+    excerpt:
+      "California splits community property 50/50 — in theory. In practice, characterizing, valuing, and tracing assets is where divorces are won or lost. Here's how it works.",
+    category: "Family Law",
+    date: "2026-04-08",
+    keywords: [
+      "community property California",
+      "how is property divided in California divorce",
+      "Ventura divorce property division",
+    ],
+    image: images.portraitSuited,
+    relatedPractice: { label: "Divorce", href: "/family-law/divorce" },
+    body: [
+      {
+        type: "p",
+        text: "One of the biggest sources of conflict in any divorce is money: the house, the retirement accounts, the business, the debts. In California, the starting point is the community-property rule — but as anyone who has been through it can tell you, the details are where things get complicated.",
+      },
+      { type: "h2", text: "Community property vs. separate property" },
+      {
+        type: "p",
+        text: "California treats most assets and debts acquired during the marriage as community property, owned equally by both spouses and generally divided 50/50 at divorce. Separate property — what you owned before the marriage, plus gifts and inheritances received during it — typically stays with the spouse who owns it.",
+      },
+      {
+        type: "p",
+        text: "That sounds clean, but the line blurs fast. Separate and community funds get commingled in shared accounts. A home owned before marriage gains value, or gets paid down with community income. A business started before the wedding grows during it. Each of these situations requires careful analysis — and is often hotly contested.",
+      },
+      { type: "h2", text: "Assets that commonly require careful handling" },
+      {
+        type: "ul",
+        items: [
+          "The family home and other real estate",
+          "Retirement accounts and pensions (which may need a special order to divide)",
+          "A business or professional practice",
+          "Stock options and deferred compensation",
+          "Commingled bank and investment accounts",
+          "Community debts and credit cards",
+        ],
+      },
+      { type: "h2", text: "Why full disclosure matters" },
+      {
+        type: "p",
+        text: "California law requires both spouses to fully and honestly disclose their finances. When one spouse tries to hide income or assets, the court has tools — and penalties — to address it. An attorney can use formal discovery and, when necessary, forensic accountants to make sure the division is based on the complete, truthful picture.",
+      },
+      {
+        type: "callout",
+        title: "Protect what you've worked for.",
+        text: "Before you agree to any division of property, have Rachel review the full financial picture. Schedule a free, confidential consultation.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Is everything split 50/50 in a California divorce?",
+        a: "Community property — generally what's acquired during the marriage — is divided equally. Separate property, such as what you owned before marriage or received by gift or inheritance, usually stays with you. How assets are characterized is often disputed.",
+      },
+      {
+        q: "What happens to the house in a divorce?",
+        a: "It depends on whether the home is community or separate property and on each spouse's circumstances. Options include selling and splitting the proceeds, one spouse buying out the other, or deferred arrangements. An attorney can help you pursue the outcome that fits your situation.",
+      },
+      {
+        q: "How is a business divided in a California divorce?",
+        a: "If a business is community property, its value must be determined — often with a valuation expert — and divided. Even a business started before marriage can have a community-property component if it grew during the marriage. These cases require careful, knowledgeable handling.",
+      },
+    ],
+  },
+  {
+    slug: "spousal-support-california-how-much-how-long",
+    title: "Spousal Support in California: How Much and How Long?",
+    metaTitle: "Spousal Support in California: How Much & How Long? | Rachel Reed Law",
+    description:
+      "A Ventura family law attorney explains how California courts decide spousal support (alimony) — the factors involved, how long it lasts, and when it can change.",
+    excerpt:
+      "Will you pay or receive spousal support — and for how long? California doesn't use a simple formula for long-term support. Here's what actually drives the decision.",
+    category: "Family Law",
+    date: "2026-04-22",
+    keywords: [
+      "spousal support California",
+      "alimony California how long",
+      "Ventura spousal support attorney",
+    ],
+    image: images.portraitCasual,
+    relatedPractice: { label: "Child & Spousal Support", href: "/family-law/support" },
+    body: [
+      {
+        type: "p",
+        text: "Spousal support — what many people still call alimony — is one of the most emotionally charged issues in a divorce. Whether you expect to pay or receive it, understanding how California courts approach support helps you plan and negotiate from a position of knowledge.",
+      },
+      { type: "h2", text: "Temporary vs. long-term support" },
+      {
+        type: "p",
+        text: "There are two phases. Temporary support can be ordered while the divorce is pending, often using a local guideline calculation to maintain the status quo. Long-term (or 'permanent') support, decided at the end of the case, is not set by a simple formula — instead, the judge weighs a list of statutory factors.",
+      },
+      { type: "h2", text: "What courts consider for long-term support" },
+      {
+        type: "ul",
+        items: [
+          "The length of the marriage",
+          "The marital standard of living",
+          "Each spouse's earning capacity and marketable skills",
+          "The needs of each party and their ability to pay",
+          "Contributions to the other spouse's education or career",
+          "The age and health of both spouses",
+        ],
+      },
+      { type: "h2", text: "How long does support last?" },
+      {
+        type: "p",
+        text: "As a general guideline, for marriages of less than ten years, support often lasts about half the length of the marriage. For marriages of ten years or longer — considered 'long-term' marriages — the court may decline to set a fixed end date, retaining the ability to revisit support later. These are guidelines, not guarantees, and the specifics of your case matter.",
+      },
+      {
+        type: "callout",
+        title: "Don't guess what support will look like.",
+        text: "Rachel can review your situation and give you a realistic picture of spousal support. Schedule a free, confidential consultation.",
+      },
+      { type: "h2", text: "Support can change" },
+      {
+        type: "p",
+        text: "Spousal support orders can often be modified if circumstances change significantly — for example, a job loss, a substantial income change, or the supported spouse remarrying (which typically ends support). If your situation has changed, you may have grounds to seek a modification.",
+      },
+    ],
+    faqs: [
+      {
+        q: "How is spousal support calculated in California?",
+        a: "Temporary support is often calculated with a local guideline formula, but long-term support is based on a set of statutory factors — including the length of the marriage, the marital standard of living, and each spouse's earning capacity — rather than a fixed formula.",
+      },
+      {
+        q: "How long does spousal support last in California?",
+        a: "As a general guideline, support for marriages under ten years often lasts about half the length of the marriage. For marriages of ten years or more, the court may not set an end date. Many factors apply, so an individual assessment is important.",
+      },
+      {
+        q: "Does spousal support end if my ex remarries?",
+        a: "Generally, yes. Spousal support typically terminates when the supported spouse remarries, and it may also be modified if there's a significant change in circumstances. An attorney can advise on your specific situation.",
+      },
+    ],
+  },
+  {
+    slug: "what-to-do-after-car-accident-ventura-county",
+    title: "What to Do After a Car Accident in Ventura County",
+    metaTitle: "What to Do After a Car Accident in Ventura County | Rachel Reed Law",
+    description:
+      "Hurt in a crash? A Ventura personal injury attorney walks through the steps to take after a car accident to protect your health and your right to compensation.",
+    excerpt:
+      "The minutes and days after a crash shape your whole claim. Here's a clear, step-by-step guide to protecting your health — and your right to compensation — after a Ventura County accident.",
+    category: "Personal Injury",
+    date: "2026-05-06",
+    keywords: [
+      "what to do after a car accident California",
+      "Ventura car accident steps",
+      "Ventura car accident attorney",
+    ],
+    image: images.portraitCasual,
+    relatedPractice: { label: "Car Accidents", href: "/personal-injury/car-accidents" },
+    body: [
+      {
+        type: "p",
+        text: "A car accident is disorienting and stressful, whether it happens on the 101, the 126, or a surface street in your neighborhood. What you do in the moments and days afterward can have a real impact on both your recovery and any claim for compensation. Here's a clear roadmap.",
+      },
+      { type: "h2", text: "In the first minutes" },
+      {
+        type: "ol",
+        items: [
+          "Check for injuries and call 911 if anyone is hurt.",
+          "Move to safety if you can, and turn on your hazard lights.",
+          "Call the police so there's an official report of the crash.",
+          "Exchange information with the other driver — but don't admit fault.",
+          "Photograph the vehicles, the scene, license plates, and any visible injuries.",
+          "Get contact information from any witnesses.",
+        ],
+      },
+      { type: "h2", text: "Get medical attention — even if you feel fine" },
+      {
+        type: "p",
+        text: "Adrenaline can mask injuries, and some — like whiplash or concussions — appear hours or days later. Seeing a doctor promptly protects your health and creates a medical record connecting your injuries to the crash, which is important if you later pursue a claim.",
+      },
+      {
+        type: "callout",
+        title: "Be careful what you say to the insurance company.",
+        text: "Insurers may call quickly asking for a recorded statement. Before you give one — or accept any offer — talk to Rachel for free.",
+      },
+      { type: "h2", text: "In the days that follow" },
+      {
+        type: "ul",
+        items: [
+          "Keep all records: medical bills, treatment notes, and proof of missed work.",
+          "Follow your doctor's treatment plan.",
+          "Avoid posting about the accident on social media.",
+          "Don't accept a quick settlement before you understand the full extent of your injuries.",
+          "Consult a personal injury attorney before dealing with the insurance company.",
+        ],
+      },
+      {
+        type: "p",
+        text: "California generally gives you two years from the date of the accident to file an injury lawsuit, but evidence fades and memories blur. Acting sooner protects your claim.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Should I call the police after a minor car accident?",
+        a: "Yes. A police report creates an official record of the crash that can be important later, even if the accident seems minor. It documents the scene, the parties, and often a preliminary view of what happened.",
+      },
+      {
+        q: "What if I feel fine after the accident — do I still need a doctor?",
+        a: "Yes. Some injuries, like whiplash or concussions, show up hours or days later. Getting checked protects your health and creates a medical record linking any injuries to the crash.",
+      },
+      {
+        q: "How soon should I talk to a lawyer after a car accident?",
+        a: "As soon as practical. Early legal advice helps you avoid mistakes with insurers, preserve evidence, and protect your claim. The consultation is free, and car accident cases are handled on a contingency basis.",
+      },
+    ],
+  },
+  {
+    slug: "personal-injury-statute-of-limitations-california",
+    title: "How Long Do You Have to File a Personal Injury Claim in California?",
+    metaTitle: "Personal Injury Statute of Limitations in California | Rachel Reed Law",
+    description:
+      "A Ventura personal injury attorney explains California's two-year deadline, the much shorter deadlines for claims against government entities, and key exceptions.",
+    excerpt:
+      "Wait too long and you can lose your right to compensation entirely. Here's how California's personal injury deadlines work — and why some claims have far shorter windows.",
+    category: "Personal Injury",
+    date: "2026-05-20",
+    keywords: [
+      "personal injury statute of limitations California",
+      "how long to file injury claim California",
+      "Ventura personal injury deadline",
+    ],
+    image: images.portraitWalking,
+    relatedPractice: { label: "Personal Injury", href: "/personal-injury" },
+    body: [
+      {
+        type: "p",
+        text: "If you've been injured by someone else's negligence, one of the most important things to understand is the deadline for taking action. It's called the statute of limitations, and missing it can permanently bar you from recovering compensation — no matter how strong your case is.",
+      },
+      { type: "h2", text: "The general rule: two years" },
+      {
+        type: "p",
+        text: "For most personal injury cases in California — including car accidents and other negligence claims — you generally have two years from the date of the injury to file a lawsuit. If you don't file within that window, the court will usually dismiss your case.",
+      },
+      { type: "h2", text: "Claims against the government have much shorter deadlines" },
+      {
+        type: "callout",
+        title: "Injured by a government entity? Act fast.",
+        text: "Claims against a city, county, or state agency often require filing a formal claim within just six months. Don't wait — contact Rachel right away.",
+      },
+      {
+        type: "p",
+        text: "If your injury involves a government entity — for example, a crash with a city vehicle or a hazard on public property — you typically must file an administrative claim within six months before you can even sue. These shortened deadlines catch many people off guard.",
+      },
+      { type: "h2", text: "Exceptions that can change the deadline" },
+      {
+        type: "ul",
+        items: [
+          "The 'discovery rule,' when an injury isn't discovered right away",
+          "Injuries to minors, which can pause the clock",
+          "Cases where the at-fault party leaves the state",
+        ],
+      },
+      {
+        type: "p",
+        text: "Because exceptions are fact-specific and the consequences of missing a deadline are so severe, the safest course is to talk to an attorney as soon as possible after an injury.",
+      },
+    ],
+    faqs: [
+      {
+        q: "How long do I have to file a personal injury lawsuit in California?",
+        a: "Generally two years from the date of injury for most cases. If you miss the deadline, your claim is usually barred, so it's best to act well before then.",
+      },
+      {
+        q: "Is the deadline different for claims against the government?",
+        a: "Yes. Claims against government entities typically require filing a formal administrative claim within six months — much shorter than the standard two-year period. These cases require prompt action.",
+      },
+      {
+        q: "What if I didn't realize I was injured right away?",
+        a: "California's 'discovery rule' can sometimes extend the deadline to when an injury was discovered or reasonably should have been. These situations are fact-specific, so consult an attorney promptly.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-expunge-criminal-record-california",
+    title: "How to Expunge a Criminal Record in California",
+    metaTitle: "How to Expunge a Criminal Record in California | Rachel Reed Law",
+    description:
+      "A Ventura criminal defense attorney explains California expungement — who qualifies, what it does, and how clearing your record can open doors to jobs and housing.",
+    excerpt:
+      "An old conviction can follow you for years — but it doesn't have to. Here's how expungement works in California, who qualifies, and what it can do for your future.",
+    category: "Criminal Defense",
+    date: "2026-06-03",
+    keywords: [
+      "expungement California",
+      "how to expunge a record California",
+      "Ventura expungement attorney",
+    ],
+    image: images.portraitCasual,
+    relatedPractice: { label: "Misdemeanor Defense", href: "/criminal-defense/misdemeanors" },
+    body: [
+      {
+        type: "p",
+        text: "A past conviction can quietly hold you back for years — costing you job offers, housing applications, and peace of mind every time a background check comes up. The good news is that many Californians are eligible to clear their record through expungement.",
+      },
+      { type: "h2", text: "What expungement does" },
+      {
+        type: "p",
+        text: "In California, an expungement (under Penal Code 1203.4) generally allows the court to withdraw the guilty plea or verdict and dismiss the case. While it doesn't erase the arrest entirely, it means that in most situations — including private job applications — you can lawfully state you were not convicted of that offense.",
+      },
+      { type: "h2", text: "Who qualifies?" },
+      {
+        type: "p",
+        text: "Eligibility depends on the offense and how the case was resolved. In general, you may qualify if you completed probation (or the court grants early termination), you're not currently charged with or serving a sentence for another offense, and the conviction wasn't for certain serious crimes. Many misdemeanors and some felonies can be expunged.",
+      },
+      {
+        type: "ul",
+        items: [
+          "You completed probation successfully (or are granted early termination)",
+          "You're not currently facing other charges or serving another sentence",
+          "The offense is eligible under California law",
+        ],
+      },
+      {
+        type: "callout",
+        title: "Find out if you qualify to clear your record.",
+        text: "Rachel can review your history and explain your options for a fresh start. Schedule a free, confidential consultation.",
+      },
+      { type: "h2", text: "Why it's worth doing" },
+      {
+        type: "p",
+        text: "Clearing your record can remove a major obstacle to employment and housing and give you the fresh start you've earned. For many people, expungement is one of the most meaningful steps they can take toward moving on.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Does expungement completely erase my record in California?",
+        a: "Not entirely — the arrest record remains — but an expungement generally dismisses the conviction so that, in most situations including private employment, you can state you were not convicted. It removes a significant barrier in everyday life.",
+      },
+      {
+        q: "Can a felony be expunged in California?",
+        a: "Some felonies can be expunged, particularly those eligible for reduction to a misdemeanor or where probation (not prison) was imposed. Eligibility is fact-specific, so it's best to have an attorney review your case.",
+      },
+      {
+        q: "How do I start the expungement process?",
+        a: "An attorney can review your record, confirm your eligibility, and file the petition with the court. Reach out for a consultation to find out whether you qualify.",
+      },
+    ],
+  },
+  {
+    slug: "drop-domestic-violence-restraining-order-california",
+    title: "Can You Get a Domestic Violence Restraining Order Dropped in California?",
+    metaTitle: "Can You Drop a Domestic Violence Restraining Order in California? | Rachel Reed Law",
+    description:
+      "A Ventura attorney explains whether a domestic violence restraining order can be dropped or changed in California, and what to do whether you sought it or it's against you.",
+    excerpt:
+      "Whether you requested a restraining order or one was filed against you, your situation can change. Here's what California allows when it comes to dropping or modifying a DVRO.",
+    category: "Family Law",
+    date: "2026-06-04",
+    keywords: [
+      "drop restraining order California",
+      "modify domestic violence restraining order California",
+      "Ventura restraining order attorney",
+    ],
+    image: images.portraitWalking,
+    relatedPractice: { label: "Restraining Orders", href: "/family-law/domestic-violence" },
+    body: [
+      {
+        type: "p",
+        text: "Restraining orders are issued in tense, fast-moving situations — and feelings and circumstances can change afterward. People often ask whether a domestic violence restraining order (DVRO) can be dropped or changed. The answer depends on who's asking and where things stand.",
+      },
+      { type: "h2", text: "If you requested the restraining order" },
+      {
+        type: "p",
+        text: "If you're the protected person and you no longer want the order, you can ask the court to dissolve or modify it. Importantly, though, the decision rests with the judge — not solely with you. The court will consider whether dropping the order is appropriate, and it generally won't allow informal violations in the meantime. Until a judge changes it, the order remains in full effect.",
+      },
+      { type: "h2", text: "If the order is against you" },
+      {
+        type: "p",
+        text: "If you're the restrained person, you cannot simply have the order dropped on your own — but you can contest it at the hearing, present evidence, and ask the court not to issue or extend it. You can also request changes if circumstances warrant. What you should never do is contact the protected person to 'work it out,' because that can violate the order and lead to serious criminal consequences.",
+      },
+      {
+        type: "callout",
+        title: "Don't navigate a restraining order alone.",
+        text: "Whether you're seeking to change an order or defending against one, the timeline is short and the stakes are high. Contact Rachel right away.",
+      },
+      { type: "h2", text: "Why these cases are tricky" },
+      {
+        type: "p",
+        text: "A DVRO can affect custody, firearm rights, and where you can live — so courts take requests to drop or modify them seriously. There may also be a related criminal case proceeding independently. Having an attorney ensures your request is presented properly and your rights are protected.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Can the protected person just drop a restraining order in California?",
+        a: "Not unilaterally. The protected person can ask the court to dissolve or modify the order, but a judge decides whether to grant it. Until the court changes it, the order stays in effect and must be followed.",
+      },
+      {
+        q: "Can I contact the other person if we've reconciled?",
+        a: "No — not while the order is in place. Even mutual contact can violate the order and lead to criminal charges. Any change must go through the court first.",
+      },
+      {
+        q: "What can I do if a restraining order was filed against me?",
+        a: "You can contest it at the hearing, present your evidence, and ask the court not to issue or extend it. An attorney can build your defense and protect your custody, firearm, and housing rights.",
+      },
+    ],
+  },
 ];
 
 export const postsBySlug = new Map(posts.map((p) => [p.slug, p]));

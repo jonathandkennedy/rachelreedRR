@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { site } from "@/lib/site";
 import { practices } from "@/lib/practices";
 import { posts } from "@/lib/blog";
+import { locations } from "@/lib/locations";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = site.url;
@@ -13,7 +14,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/reviews`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/blog`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${base}/contact`, lastModified: now, changeFrequency: "yearly", priority: 0.9 },
+    { url: `${base}/areas-we-serve`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
   ];
+
+  const locationRoutes: MetadataRoute.Sitemap = locations.map((l) => ({
+    url: `${base}/areas-we-serve/${l.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
 
   const practiceRoutes: MetadataRoute.Sitemap = practices.map((p) => ({
     url: `${base}/${p.path}`,
@@ -29,5 +38,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticRoutes, ...practiceRoutes, ...postRoutes];
+  return [...staticRoutes, ...practiceRoutes, ...locationRoutes, ...postRoutes];
 }
