@@ -54,6 +54,7 @@ export default function Footer() {
             <li><Link href="/reviews" className="text-muted hover:text-cream">Reviews</Link></li>
             <li><Link href="/blog" className="text-muted hover:text-cream">Blog</Link></li>
             <li><Link href="/areas-we-serve" className="text-muted hover:text-cream">Areas We Serve</Link></li>
+            <li><Link href="/es/derecho-de-familia" hrefLang="es" className="text-muted hover:text-cream">Español: Derecho de Familia</Link></li>
             <li><Link href="/contact" className="text-muted hover:text-cream">Contact</Link></li>
             <li>
               <a href={site.profiles.yelp} target="_blank" rel="noopener noreferrer" className="text-muted hover:text-cream">

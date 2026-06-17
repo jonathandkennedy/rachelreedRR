@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getChildren, getPractice } from "@/lib/practices";
+import { enToEsFamily } from "@/lib/es-family";
 import PracticeTemplate from "@/components/PracticeTemplate";
 
 export function generateStaticParams() {
@@ -15,11 +16,21 @@ export async function generateMetadata({
   const { topic } = await params;
   const practice = getPractice(`family-law/${topic}`);
   if (!practice) return {};
+  const esHref = enToEsFamily[`/${practice.path}`];
   return {
     title: practice.metaTitle,
     description: practice.metaDescription,
     keywords: practice.keywords,
-    alternates: { canonical: `/${practice.path}` },
+    alternates: {
+      canonical: `/${practice.path}`,
+      ...(esHref && {
+        languages: {
+          "en-US": `/${practice.path}`,
+          "es-US": esHref,
+          "x-default": `/${practice.path}`,
+        },
+      }),
+    },
   };
 }
 
@@ -31,5 +42,5 @@ export default async function FamilyLawTopicPage({
   const { topic } = await params;
   const practice = getPractice(`family-law/${topic}`);
   if (!practice) notFound();
-  return <PracticeTemplate practice={practice} />;
+  return <PracticeTemplate practice={practice} spanishHref={enToEsFamily[`/${practice.path}`]} />;
 }

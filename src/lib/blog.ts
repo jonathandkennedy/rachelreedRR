@@ -2043,6 +2043,166 @@ export const posts: Post[] = [
       },
     ],
   },
+
+  /* ---------- Paternity & cross-status families (batch 4) ---------- */
+  {
+    slug: "paternity-dna-testing-california-family-law",
+    title: "DNA & Paternity Testing in California: What It Means for Your Family Law Case",
+    metaTitle: "DNA & Paternity Testing in California Family Law | Rachel Reed Law",
+    description:
+      "How does establishing paternity work in California, and where does DNA testing fit in? A Ventura family law attorney explains paternity, custody, support, and your rights.",
+    excerpt:
+      "Establishing paternity unlocks custody, visitation, and support rights — and DNA testing is only part of the story. Here's how parentage really works in California.",
+    category: "Family Law",
+    date: "2026-05-29",
+    keywords: [
+      "paternity test California",
+      "establishing paternity California",
+      "DNA testing custody support California",
+    ],
+    image: images.portraitWalking,
+    relatedPractice: { label: "Child Custody", href: "/family-law/child-custody" },
+    body: [
+      {
+        type: "p",
+        text: "Paternity — or, in current legal terms, 'parentage' — is the foundation of many family law rights. Until parentage is legally established, an unmarried father may have no enforceable right to custody or visitation, and a child may have no right to support from that parent. DNA testing often comes up in these cases, but it's only one piece of the picture.",
+      },
+      { type: "h2", text: "Why establishing paternity matters" },
+      {
+        type: "p",
+        text: "Legally establishing who a child's parents are opens the door to a range of rights and responsibilities:",
+      },
+      {
+        type: "ul",
+        items: [
+          "The right to seek custody and visitation",
+          "The obligation (and the child's right) to receive child support",
+          "Access to benefits like health insurance, inheritance, and Social Security",
+          "The child's interest in knowing both parents",
+        ],
+      },
+      { type: "h2", text: "How parentage is established in California" },
+      {
+        type: "p",
+        text: "There are a few common paths. Parents can sign a Voluntary Declaration of Parentage (often at the hospital when the child is born), which has the force of a court order. Parentage can also be established through a court case, where the court may order genetic (DNA) testing if parentage is disputed.",
+      },
+      { type: "h2", text: "Where DNA testing fits in" },
+      {
+        type: "p",
+        text: "When parentage is contested, a court can order genetic testing — typically a simple cheek swab — to determine biological parentage. The results are powerful evidence, but they don't always end the matter, because California law also recognizes the concept of a 'presumed parent.'",
+      },
+      { type: "h2", text: "The 'presumed parent' rule can surprise people" },
+      {
+        type: "callout",
+        title: "Biology isn't always the whole story.",
+        text: "Someone who has welcomed a child into their home and held the child out as their own may be a legal parent even without a biological tie — and there are deadlines that can affect challenges. These cases are nuanced.",
+      },
+      {
+        type: "p",
+        text: "California recognizes that a person who has treated a child as their own can be a 'presumed parent,' and the marital presumption can apply to children born during a marriage. These rules — and the time limits that can apply to challenging parentage — make paternity cases more complex than a single DNA test. If parentage is in question in your case, get advice before assuming the outcome.",
+      },
+      {
+        type: "links",
+        title: "Related reading",
+        items: [
+          { label: "Fathers' rights in California", href: "/blog/fathers-rights-california-ventura-county" },
+          { label: "How is child custody decided in Ventura County?", href: "/blog/how-child-custody-is-decided-ventura-county" },
+          { label: "Rachel's child custody practice", href: "/family-law/child-custody" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How do I establish paternity in California?",
+        a: "Common paths include signing a Voluntary Declaration of Parentage (often at the hospital) or establishing parentage through a court case, where the court can order genetic (DNA) testing if it's disputed.",
+      },
+      {
+        q: "Does a DNA test automatically decide who the legal father is?",
+        a: "Not always. DNA results are strong evidence, but California also recognizes 'presumed parents' — for example, someone who welcomed the child into their home as their own — and time limits can apply to challenges. The outcome can be more nuanced than biology alone.",
+      },
+      {
+        q: "Can I get child support without establishing paternity?",
+        a: "Generally, parentage must be established before a court can order child support from that parent. Establishing parentage is usually the first step toward both support and custody or visitation rights.",
+      },
+    ],
+  },
+  {
+    slug: "us-citizen-child-with-non-citizen-california",
+    title: "Having a Child With a Non-Citizen in California: Custody, Support & What to Know",
+    metaTitle: "Child With a Non-Citizen in California: Custody & Support | Rachel Reed Law",
+    description:
+      "If you share a child with a non-citizen, how do custody and support work in California? A Ventura family law attorney explains your rights regardless of immigration status.",
+    excerpt:
+      "Custody and child support in California are decided by the best interests of the child — not immigration status. Here's what parents in a mixed-status family should know.",
+    category: "Family Law",
+    date: "2026-06-08",
+    keywords: [
+      "custody non-citizen parent California",
+      "child support undocumented parent California",
+      "mixed status family custody California",
+    ],
+    image: images.portraitCasual,
+    relatedPractice: { label: "Child Custody", href: "/family-law/child-custody" },
+    body: [
+      {
+        type: "p",
+        text: "Families come in every form, and it's increasingly common for a U.S. citizen and a non-citizen — or two parents with different immigration statuses — to share a child. If that's your situation and your relationship is ending, you may be worried about how custody, support, and immigration intersect. Here's a clear, reassuring overview.",
+      },
+      { type: "h2", text: "Your child's citizenship" },
+      {
+        type: "p",
+        text: "A child born in the United States is generally a U.S. citizen, regardless of the parents' immigration status. That citizenship belongs to the child and isn't changed by a custody dispute between the parents.",
+      },
+      { type: "h2", text: "Immigration status does not decide custody" },
+      {
+        type: "callout",
+        title: "Custody is about the best interests of the child — not paperwork.",
+        text: "California courts decide custody based on the child's health, safety, and welfare. A parent's immigration status is not, by itself, a reason to deny custody or visitation.",
+      },
+      {
+        type: "p",
+        text: "This is the key point many parents don't realize: California family courts decide custody using the best-interests-of-the-child standard. An undocumented parent has the right to seek custody and visitation, and a parent's immigration status by itself is generally not a basis to strip them of a relationship with their child. Threats like 'I'll have you deported and take the kids' are not how the law works.",
+      },
+      { type: "h2", text: "Child support applies regardless of status" },
+      {
+        type: "p",
+        text: "Both parents have an obligation to support their child, and both have the right to seek support — regardless of immigration status. An undocumented parent can pursue child support through the California courts, and a parent cannot escape a support obligation because of the other parent's status.",
+      },
+      { type: "h2", text: "International travel and the risk of abduction" },
+      {
+        type: "p",
+        text: "One legitimate concern in cross-border families is international travel with the child. Custody orders can include safeguards — such as requiring consent for travel, holding a child's passport, or 'ne exeat' provisions — to address worries that a child could be taken to another country. The U.S. is also party to the Hague Convention, which provides a process for the return of wrongfully removed children in participating countries.",
+      },
+      { type: "h2", text: "When to involve an immigration attorney too" },
+      {
+        type: "p",
+        text: "Family law and immigration are separate areas of law, and serious cases can benefit from coordinating both. Rachel handles the family law side — custody, support, and protective orders — and can help you understand when a dedicated immigration attorney should be brought in.",
+      },
+      {
+        type: "links",
+        title: "Related reading",
+        items: [
+          { label: "How is child custody decided in Ventura County?", href: "/blog/how-child-custody-is-decided-ventura-county" },
+          { label: "Fathers' rights in California", href: "/blog/fathers-rights-california-ventura-county" },
+          { label: "Rachel's child custody practice", href: "/family-law/child-custody" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Can an undocumented parent get custody in California?",
+        a: "Yes. California courts decide custody by the best interests of the child, and a parent's immigration status by itself is generally not a reason to deny custody or visitation. An undocumented parent has the right to seek custody.",
+      },
+      {
+        q: "Can I get child support from a non-citizen parent?",
+        a: "Yes. Both parents have a duty to support their child regardless of immigration status, and either parent can seek child support through the California courts.",
+      },
+      {
+        q: "What if I'm afraid the other parent will take our child to another country?",
+        a: "Custody orders can include safeguards such as requiring consent to travel, holding the child's passport, or ne exeat provisions. The Hague Convention also provides a process for returning wrongfully removed children among participating countries. Raise these concerns with your attorney.",
+      },
+    ],
+  },
 ];
 
 export const postsBySlug = new Map(posts.map((p) => [p.slug, p]));

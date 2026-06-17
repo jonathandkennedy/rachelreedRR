@@ -11,7 +11,13 @@ import CTASection from "./CTASection";
 import JsonLd from "./JsonLd";
 import { serviceSchema } from "@/lib/schema";
 
-export default function PracticeTemplate({ practice }: { practice: Practice }) {
+export default function PracticeTemplate({
+  practice,
+  spanishHref,
+}: {
+  practice: Practice;
+  spanishHref?: string;
+}) {
   const pillar = getPractice(practice.parent)!;
   const siblings = getChildren(practice.parent);
   const relatedPosts = getPostsForPractice(practice.path, practice.category);
@@ -40,7 +46,18 @@ export default function PracticeTemplate({ practice }: { practice: Practice }) {
         />
         <div className="container-x relative grid items-center gap-10 pb-14 lg:grid-cols-[1.3fr_0.7fr]">
           <div>
-            <Breadcrumbs items={crumbs} />
+            <div className="flex flex-wrap items-center justify-between gap-3">
+              <Breadcrumbs items={crumbs} />
+              {spanishHref && (
+                <Link
+                  href={spanishHref}
+                  hrefLang="es"
+                  className="text-xs font-semibold uppercase tracking-wider text-muted hover:text-gold"
+                >
+                  Español →
+                </Link>
+              )}
+            </div>
             <p className="eyebrow mb-4 mt-6">{practice.category}</p>
             <h1 className="text-balance text-4xl leading-[1.06] sm:text-5xl">
               {practice.h1}

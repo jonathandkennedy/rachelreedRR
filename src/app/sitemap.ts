@@ -4,6 +4,7 @@ import { practices } from "@/lib/practices";
 import { posts } from "@/lib/blog";
 import { locations } from "@/lib/locations";
 import { getComboParams } from "@/lib/combos";
+import { esFamily, esFamilyPillarPath } from "@/lib/es-family";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = site.url;
@@ -39,6 +40,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: p.isPillar ? 0.9 : 0.8,
   }));
 
+  const esRoutes: MetadataRoute.Sitemap = esFamily.map((p) => ({
+    url: p.isPillar ? `${base}${esFamilyPillarPath}` : `${base}${esFamilyPillarPath}/${p.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
   const postRoutes: MetadataRoute.Sitemap = posts.map((p) => ({
     url: `${base}/blog/${p.slug}`,
     lastModified: new Date(p.updated ?? p.date),
@@ -51,6 +59,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...practiceRoutes,
     ...locationRoutes,
     ...comboRoutes,
+    ...esRoutes,
     ...postRoutes,
   ];
 }

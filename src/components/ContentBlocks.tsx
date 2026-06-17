@@ -2,8 +2,42 @@ import Link from "next/link";
 import { type Block, slugify } from "@/lib/content";
 import { site } from "@/lib/site";
 
+const COPY = {
+  en: {
+    calloutLink: "Talk to Rachel about your case →",
+    trailing: (phone: string) => (
+      <>
+        Call {site.attorney} directly at{" "}
+        <a href={site.phone.href} className="text-gold-light">
+          {phone}
+        </a>
+        .
+      </>
+    ),
+  },
+  es: {
+    calloutLink: "Hable con Rachel sobre su caso →",
+    trailing: (phone: string) => (
+      <>
+        Llame a {site.attorney} directamente al{" "}
+        <a href={site.phone.href} className="text-gold-light">
+          {phone}
+        </a>
+        .
+      </>
+    ),
+  },
+} as const;
+
 /** Renders an array of structured content blocks inside `.prose-rrl`. */
-export default function ContentBlocks({ blocks }: { blocks: Block[] }) {
+export default function ContentBlocks({
+  blocks,
+  lang = "en",
+}: {
+  blocks: Block[];
+  lang?: "en" | "es";
+}) {
+  const copy = COPY[lang];
   return (
     <div className="prose-rrl">
       {blocks.map((block, i) => {
@@ -52,7 +86,7 @@ export default function ContentBlocks({ blocks }: { blocks: Block[] }) {
                   href="/contact"
                   className="mt-4 inline-block text-gold-light link-underline font-semibold"
                 >
-                  Talk to Rachel about your case →
+                  {copy.calloutLink}
                 </Link>
               </aside>
             );
@@ -93,13 +127,8 @@ export default function ContentBlocks({ blocks }: { blocks: Block[] }) {
             return null;
         }
       })}
-      <p className="text-sm text-muted-dark mt-10">
-        Call {site.attorney} directly at{" "}
-        <a href={site.phone.href} className="text-gold-light">
-          {site.phone.display}
-        </a>
-        .
-      </p>
+      <p className="text-sm text-muted-dark mt-10">{copy.trailing(site.phone.display)}</p>
     </div>
   );
 }
+
