@@ -2203,6 +2203,187 @@ export const posts: Post[] = [
       },
     ],
   },
+
+  /* ---------- Timely + domestic-violence (batch 5) ---------- */
+  {
+    slug: "new-california-family-law-changes-2026",
+    title: "New California Family Law Changes in 2026: What Ventura County Families Should Know",
+    metaTitle: "New California Family Law Changes in 2026 | Rachel Reed Law",
+    description:
+      "California's biggest 2026 family law change is the new joint petition for divorce (SB 1427). A Ventura attorney explains it and other recent updates families should know.",
+    excerpt:
+      "A new law makes amicable divorce in California cheaper and simpler in 2026 — and it's not the only recent change. Here's what Ventura County families should know.",
+    category: "Family Law",
+    date: "2026-06-12",
+    updated: "2026-06-17",
+    keywords: [
+      "new California family law 2026",
+      "California joint petition divorce SB 1427",
+      "2026 California divorce law changes",
+    ],
+    image: images.portraitSuited,
+    relatedPractice: { label: "Divorce", href: "/family-law/divorce" },
+    body: [
+      {
+        type: "p",
+        text: "California family law continues to evolve, and 2026 brought a notable change that makes amicable divorce simpler and less expensive. Here's a plain-English look at what's new and what it could mean for your family in Ventura County. (As always, laws and forms can change — confirm the details for your situation with an attorney.)",
+      },
+      { type: "h2", text: "The headline change: a new 'joint petition' for divorce (SB 1427)" },
+      {
+        type: "p",
+        text: "Effective January 1, 2026, California created a new joint petition for dissolution of marriage. Instead of one spouse being the 'petitioner' and the other the 'respondent,' agreeing couples can now file together as Petitioner 1 and Petitioner 2 using a single form. For couples who genuinely agree on everything, it's a friendlier, more cooperative way to start.",
+      },
+      { type: "h3", text: "Why it matters" },
+      {
+        type: "ul",
+        items: [
+          "It eliminates the formal 'service of process' step, since both spouses file together",
+          "It can cut total filing costs roughly in half (from about $870 to $435) by avoiding a second response fee",
+          "Unlike the older 'summary dissolution,' it's available to couples regardless of how long they were married, whether they have children, or how complex their property is — as long as they fully agree in writing",
+          "If things break down, either spouse can revoke the joint petition and the case converts to a standard divorce",
+        ],
+      },
+      {
+        type: "callout",
+        title: "Amicable doesn't always mean simple.",
+        text: "Even with the new joint petition, a single mistake on property, retirement, or support can be costly. Having Rachel prepare or review your agreement protects you. Free consultation.",
+      },
+      { type: "h2", text: "Other recent developments worth knowing" },
+      {
+        type: "p",
+        text: "Beyond the joint petition, recent California reforms have continued to strengthen protections in family court. In broad strokes:",
+      },
+      {
+        type: "ul",
+        items: [
+          "Custody and domestic violence: California law continues to emphasize that a parent who has committed domestic violence generally should not be awarded custody unless they overcome a legal presumption — reinforcing protections for children",
+          "Child support: courts increasingly scrutinize a parent's true ability to pay, and can 'impute' income to a parent whose lifestyle doesn't match their claimed earnings",
+          "Restraining orders: continued efforts to improve access to protective orders and judicial training on abuse",
+        ],
+      },
+      {
+        type: "p",
+        text: "These are general trends rather than a substitute for legal advice, and how any change applies depends on your facts. If you're considering divorce or have a custody or support matter in Ventura County, a quick conversation can tell you exactly where you stand under current law.",
+      },
+      {
+        type: "links",
+        title: "Learn more",
+        items: [
+          { label: "How to file for divorce in Ventura County", href: "/blog/how-to-file-for-divorce-ventura-county" },
+          { label: "Do you need a lawyer for an uncontested divorce?", href: "/blog/uncontested-divorce-california-do-you-need-a-lawyer" },
+          { label: "Rachel's Ventura divorce practice", href: "/family-law/divorce" },
+        ],
+      },
+      {
+        type: "links",
+        title: "Sources",
+        items: [
+          { label: "Divorce.law — California's Joint Petition Divorce Law (SB 1427)", href: "https://divorce.law/guides/news-california-joint-petition-divorce-sb-1427-takes-effect-2026" },
+          { label: "Superior Court of Los Angeles County — Joint Petition for Dissolution press release", href: "https://www.lacourt.org/newsmedia/uploads/142025122915355825NR12-29-2025NewJointPetitionforDissolution-PressRelease(2).pdf" },
+          { label: "Collaborative Divorce California — New Joint Petition for Dissolution (2026)", href: "https://collaborativedivorcecalifornia.com/californias-new-joint-petition-for-dissolution-will-benefit-spouses-in-collaborative-divorce-cases-starting-january-1-2026/" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "What is the new joint petition for divorce in California?",
+        a: "Effective January 1, 2026, California allows agreeing spouses to file for divorce together as Petitioner 1 and Petitioner 2 on a single joint petition, rather than one filing against the other. It eliminates the service-of-process step and can roughly halve filing costs.",
+      },
+      {
+        q: "Who can use the joint petition for dissolution?",
+        a: "Unlike the older summary dissolution (limited to short marriages with no children and minimal assets), the joint petition is available to couples regardless of marriage length, children, or property complexity — as long as they fully agree on all terms in writing. Either spouse can revoke it if things change.",
+      },
+      {
+        q: "Does the new law mean I don't need a lawyer?",
+        a: "Not necessarily. The joint petition streamlines the process for couples who agree, but mistakes on property division, retirement, taxes, or support can still be costly. Having an attorney prepare or review your agreement is inexpensive protection.",
+      },
+    ],
+  },
+  {
+    slug: "why-reporting-domestic-violence-matters-ventura-county",
+    title: "Why Reporting Domestic Violence Right Away Matters for Your Case",
+    metaTitle: "Why Reporting Domestic Violence Matters for Your Case | Rachel Reed Law",
+    description:
+      "Reporting domestic violence promptly protects your safety and your family law case. A Ventura attorney explains why timing matters and where to get help locally.",
+    excerpt:
+      "Reporting domestic violence when it happens isn't just about safety — it can be decisive for a restraining order and a custody case. Here's why timing matters, and where Ventura County victims can get help.",
+    category: "Family Law",
+    date: "2026-06-15",
+    keywords: [
+      "reporting domestic violence California",
+      "domestic violence custody California",
+      "Ventura County Family Justice Center",
+    ],
+    image: images.portraitWalking,
+    relatedPractice: { label: "Restraining Orders", href: "/family-law/domestic-violence" },
+    body: [
+      {
+        type: "p",
+        text: "If you are in immediate danger, call 911. Beyond your safety — which always comes first — there's an important legal reality many survivors don't realize: reporting domestic violence when it happens can make a real difference in a restraining order and a custody case later. This isn't about reliving trauma for a court's sake. It's about creating the record that lets the system protect you.",
+      },
+      { type: "h2", text: "Domestic violence is more common than people think" },
+      {
+        type: "p",
+        text: "According to the Ventura County Family Justice Center, there are roughly 7,000 allegations of domestic violence in Ventura County every year, along with thousands of allegations of child abuse and neglect, elder abuse, and sexual assault. If this is happening to you, you are not alone — and help exists.",
+      },
+      { type: "h2", text: "Why reporting promptly helps your case" },
+      {
+        type: "p",
+        text: "Family courts and criminal courts decide based on evidence. When abuse is reported close to when it happens, it creates contemporaneous proof that is far more persuasive than a description offered months later. Prompt reporting can generate:",
+      },
+      {
+        type: "ul",
+        items: [
+          "A police report documenting the incident and the date",
+          "Medical records and photographs of any injuries",
+          "Statements from responding officers and witnesses",
+          "A clear timeline that supports your credibility",
+        ],
+      },
+      { type: "h2", text: "It can be decisive in a custody case" },
+      {
+        type: "callout",
+        title: "Domestic violence directly affects custody in California.",
+        text: "California law presumes it is not in a child's best interest to be placed in the custody of a parent who has committed domestic violence. Documentation is what makes that protection real.",
+      },
+      {
+        type: "p",
+        text: "Under California law, a finding of domestic violence triggers a legal presumption against awarding custody to the person who committed it. But a judge can only act on what's proven. A documented report can be the difference between a court that recognizes the danger and one that sees only 'he said, she said.'",
+      },
+      { type: "h2", text: "Where to get help in Ventura County" },
+      {
+        type: "p",
+        text: "You don't have to navigate this alone or figure out every agency yourself. The Ventura County Family Justice Center brings advocates and services together in one place so survivors can get help — safety planning, support, and guidance — without retelling their story over and over. Their 'Did You Know?' page is a helpful starting point to understand the scope of the problem and the resources available.",
+      },
+      {
+        type: "links",
+        title: "Resources & related reading",
+        items: [
+          { label: "Ventura County Family Justice Center — Did You Know?", href: "https://fjc.venturacounty.gov/did-you-know/" },
+          { label: "How to get a restraining order in Ventura County", href: "/blog/how-to-get-restraining-order-ventura-county" },
+          { label: "Rachel's restraining order & domestic violence practice", href: "/family-law/domestic-violence" },
+        ],
+      },
+      {
+        type: "p",
+        text: "If you're considering a restraining order or you're in a custody dispute involving abuse, talk to Rachel. She handles these cases with urgency and care — and the sooner the conduct is documented, the more she can do to protect you and your children.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Does reporting domestic violence help my custody case in California?",
+        a: "It can be very important. California law presumes it is not in a child's best interest to be in the custody of a parent who has committed domestic violence, but the court must have proof. A timely police report, medical records, and photos create the evidence that makes that protection meaningful.",
+      },
+      {
+        q: "What should I do right after a domestic violence incident?",
+        a: "If you're in immediate danger, call 911. When safe, seek medical attention even for minor injuries, document everything (photos, dates, witnesses), and reach out for help — locally, the Ventura County Family Justice Center connects survivors with advocates and services in one place.",
+      },
+      {
+        q: "What is the Ventura County Family Justice Center?",
+        a: "It's a center that brings together advocates and services for survivors of domestic violence and abuse in one location, so victims can get safety planning, support, and guidance without having to retell their story to many separate agencies. See their 'Did You Know?' page for resources.",
+      },
+    ],
+  },
 ];
 
 export const postsBySlug = new Map(posts.map((p) => [p.slug, p]));

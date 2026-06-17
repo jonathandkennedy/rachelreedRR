@@ -99,13 +99,27 @@ export default function ContentBlocks({
                   </p>
                 )}
                 <ul className="space-y-2">
-                  {block.items.map((it, j) => (
-                    <li key={j}>
-                      <Link href={it.href} className="text-gold-light link-underline font-medium">
-                        {it.label} →
-                      </Link>
-                    </li>
-                  ))}
+                  {block.items.map((it, j) => {
+                    const external = it.href.startsWith("http");
+                    return (
+                      <li key={j}>
+                        {external ? (
+                          <a
+                            href={it.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-gold-light link-underline font-medium"
+                          >
+                            {it.label} ↗
+                          </a>
+                        ) : (
+                          <Link href={it.href} className="text-gold-light link-underline font-medium">
+                            {it.label} →
+                          </Link>
+                        )}
+                      </li>
+                    );
+                  })}
                 </ul>
               </nav>
             );
