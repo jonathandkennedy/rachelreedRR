@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Practice } from "@/lib/practices";
 import { getChildren, getPractice } from "@/lib/practices";
+import { getPostsForPractice } from "@/lib/blog";
 import { site } from "@/lib/site";
 import ContentBlocks from "./ContentBlocks";
 import Breadcrumbs, { type Crumb } from "./Breadcrumbs";
@@ -13,6 +14,7 @@ import { serviceSchema } from "@/lib/schema";
 export default function PracticeTemplate({ practice }: { practice: Practice }) {
   const pillar = getPractice(practice.parent)!;
   const siblings = getChildren(practice.parent);
+  const relatedPosts = getPostsForPractice(practice.path, practice.category);
 
   const crumbs: Crumb[] = [{ name: "Home", href: "/" }];
   if (!practice.isPillar) {
@@ -110,6 +112,34 @@ export default function PracticeTemplate({ practice }: { practice: Practice }) {
             <div className="mt-12">
               <FaqSection faqs={practice.faqs} />
             </div>
+
+            {relatedPosts.length > 0 && (
+              <div className="mt-14">
+                <h2 className="mb-6 font-display text-2xl text-cream sm:text-3xl">
+                  Related reading
+                </h2>
+                <ul className="grid gap-4 sm:grid-cols-3">
+                  {relatedPosts.map((post) => (
+                    <li key={post.slug}>
+                      <Link
+                        href={`/blog/${post.slug}`}
+                        className="card group flex h-full flex-col p-5 transition-all hover:-translate-y-1 hover:border-gold/50"
+                      >
+                        <span className="text-[0.65rem] font-semibold uppercase tracking-wider text-gold">
+                          {post.category}
+                        </span>
+                        <span className="mt-2 flex-1 font-display text-lg leading-snug text-cream group-hover:text-gold-light">
+                          {post.title}
+                        </span>
+                        <span className="mt-3 text-sm font-semibold text-gold-light">
+                          Read more →
+                        </span>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </article>
 
           {/* Sidebar */}

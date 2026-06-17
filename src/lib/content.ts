@@ -11,7 +11,8 @@ export type Block =
   | { type: "ul"; items: string[] }
   | { type: "ol"; items: string[] }
   | { type: "callout"; title: string; text: string }
-  | { type: "quote"; text: string; cite?: string };
+  | { type: "quote"; text: string; cite?: string }
+  | { type: "links"; title?: string; items: { label: string; href: string }[] };
 
 export type FAQ = { q: string; a: string };
 

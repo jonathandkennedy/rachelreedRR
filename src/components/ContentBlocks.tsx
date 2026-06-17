@@ -56,6 +56,25 @@ export default function ContentBlocks({ blocks }: { blocks: Block[] }) {
                 </Link>
               </aside>
             );
+          case "links":
+            return (
+              <nav key={i} className="card my-8 p-6 not-prose" aria-label={block.title ?? "Related links"}>
+                {block.title && (
+                  <p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-gold">
+                    {block.title}
+                  </p>
+                )}
+                <ul className="space-y-2">
+                  {block.items.map((it, j) => (
+                    <li key={j}>
+                      <Link href={it.href} className="text-gold-light link-underline font-medium">
+                        {it.label} →
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            );
           case "quote":
             return (
               <blockquote

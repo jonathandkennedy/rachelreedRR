@@ -861,6 +861,747 @@ export const posts: Post[] = [
       },
     ],
   },
+
+  /* ---------- Ventura County family-law cluster (batch 2) ---------- */
+  {
+    slug: "cost-of-divorce-ventura-county",
+    title: "How Much Does a Divorce Cost in Ventura County?",
+    metaTitle: "How Much Does a Divorce Cost in Ventura County? | Rachel Reed Law",
+    description:
+      "What does a divorce really cost in Ventura County, CA? A local divorce attorney breaks down filing fees, attorney fees, and the factors that drive the total up or down.",
+    excerpt:
+      "Divorce costs in Ventura County range widely — from a few hundred dollars in court fees for a simple case to far more when custody or finances are contested. Here's what actually drives the price.",
+    category: "Family Law",
+    date: "2026-06-09",
+    keywords: [
+      "cost of divorce Ventura County",
+      "how much does a divorce cost California",
+      "Ventura divorce attorney fees",
+    ],
+    image: images.portraitSuited,
+    relatedPractice: { label: "Divorce", href: "/family-law/divorce" },
+    body: [
+      {
+        type: "p",
+        text: "There's no single price tag for a divorce in Ventura County. The honest answer is that it depends almost entirely on one thing: how much you and your spouse disagree. A fully uncontested divorce can cost relatively little, while a high-conflict case over custody and finances can cost far more. Here's how the numbers break down.",
+      },
+      { type: "h2", text: "Court filing fees" },
+      {
+        type: "p",
+        text: "Every California divorce starts with a court filing fee to open the case, and the responding spouse pays a similar fee to file their response. These are set by the court, not your attorney, and fee waivers are available if you can't afford them. Filing fees are the one cost that's roughly the same in every case.",
+      },
+      { type: "h2", text: "What really drives the total: conflict" },
+      {
+        type: "p",
+        text: "The largest variable is attorney time, and attorney time is driven by conflict. An uncontested divorce — where you agree on property, support, and a parenting plan — requires far less work than a case where every issue is fought. The biggest cost-drivers include:",
+      },
+      {
+        type: "ul",
+        items: [
+          "Custody and visitation disputes that require hearings or evaluations",
+          "Disagreements over dividing the home, retirement, or a business",
+          "A spouse who hides income or won't disclose finances",
+          "Spousal support disputes",
+          "The need for experts, such as forensic accountants or appraisers",
+        ],
+      },
+      { type: "h2", text: "How to keep your divorce affordable" },
+      {
+        type: "p",
+        text: "You have more control over cost than you might think. Staying organized, communicating reasonably, focusing on what truly matters, and resolving issues through negotiation or mediation all reduce the time — and therefore the cost — of your case. Rachel will tell you honestly where it's worth fighting and where a fight will only drain your resources.",
+      },
+      {
+        type: "callout",
+        title: "Get a clear picture of cost before you commit.",
+        text: "Rachel offers a free, confidential consultation and explains her fees up front — no surprises. Find out what your case is likely to involve.",
+      },
+      { type: "h2", text: "Learn more" },
+      {
+        type: "links",
+        title: "Related reading",
+        items: [
+          { label: "How to file for divorce in Ventura County", href: "/blog/how-to-file-for-divorce-ventura-county" },
+          { label: "Do you need a lawyer for an uncontested divorce?", href: "/blog/uncontested-divorce-california-do-you-need-a-lawyer" },
+          { label: "Rachel's Ventura divorce practice", href: "/family-law/divorce" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much does an uncontested divorce cost in California?",
+        a: "An uncontested divorce — where both spouses agree on all major issues — is the least expensive option, with court filing fees plus limited attorney time to prepare and review the agreement. The more you agree on, the lower the cost.",
+      },
+      {
+        q: "What makes a divorce more expensive?",
+        a: "Conflict. Contested custody, disputes over property or a business, hidden assets, spousal support fights, and the need for experts all increase attorney time and therefore cost. Reasonableness on both sides is the best cost-control.",
+      },
+      {
+        q: "Are court filing fees the same for everyone?",
+        a: "California sets standard filing fees for divorce, and they're roughly the same in every case. Fee waivers are available for those who cannot afford them. Attorney fees, not filing fees, are what vary widely.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-file-for-divorce-ventura-county",
+    title: "How to File for Divorce in Ventura County: A Step-by-Step Guide",
+    metaTitle: "How to File for Divorce in Ventura County (Step by Step) | Rachel Reed Law",
+    description:
+      "A step-by-step guide to filing for divorce in Ventura County, California — the forms, the courthouse, the six-month waiting period, and what to expect at each stage.",
+    excerpt:
+      "Filing for divorce in Ventura County follows a defined process — petition, service, disclosures, and resolution. Here's each step, plain and simple.",
+    category: "Family Law",
+    date: "2026-06-10",
+    keywords: [
+      "how to file for divorce Ventura County",
+      "filing for divorce California steps",
+      "Ventura County family court divorce",
+    ],
+    image: images.portraitCasual,
+    relatedPractice: { label: "Divorce", href: "/family-law/divorce" },
+    body: [
+      {
+        type: "p",
+        text: "Starting a divorce can feel overwhelming, but the California process follows a clear sequence of steps. In Ventura County, your case will be handled through the Ventura Superior Court's family law division at the Hall of Justice on South Victoria Avenue. Here's the path from start to finish.",
+      },
+      { type: "h2", text: "Step 1: Meet the residency requirement" },
+      {
+        type: "p",
+        text: "To file for divorce in California, you (or your spouse) must have lived in the state for at least six months and in the county where you file for at least three months. If you meet those requirements in Ventura County, you can file here.",
+      },
+      { type: "h2", text: "Step 2: File the petition" },
+      {
+        type: "p",
+        text: "The divorce begins when one spouse files a Petition for Dissolution of Marriage along with the required forms and filing fee. This officially opens the case and states what you're asking the court to decide.",
+      },
+      { type: "h2", text: "Step 3: Serve your spouse" },
+      {
+        type: "p",
+        text: "Your spouse must be formally served with the petition. Importantly, the mandatory six-month waiting period before a divorce can be finalized starts when your spouse is served (or otherwise appears in the case) — not when you file.",
+      },
+      { type: "h2", text: "Step 4: Exchange financial disclosures" },
+      {
+        type: "p",
+        text: "Both spouses are required to complete full, honest financial disclosures — listing income, assets, and debts. This step is mandatory and is the foundation for dividing property and setting support. Skipping or fudging it can have serious consequences.",
+      },
+      { type: "h2", text: "Step 5: Resolve the issues" },
+      {
+        type: "p",
+        text: "The remaining issues — property division, support, and a parenting plan if you have children — are resolved either by agreement (through negotiation or mediation) or, if necessary, by a judge. A complete written agreement can be submitted to the court for approval.",
+      },
+      { type: "h2", text: "Step 6: Finalize the judgment" },
+      {
+        type: "p",
+        text: "Once all issues are resolved and the six-month period has passed, the court enters a judgment and your divorce is final. Only then are you legally single again.",
+      },
+      {
+        type: "callout",
+        title: "Filing correctly the first time saves time and money.",
+        text: "Small mistakes in the paperwork can cause months of delay. Rachel can prepare and file your case properly — start with a free consultation.",
+      },
+      {
+        type: "links",
+        title: "Related reading",
+        items: [
+          { label: "How long does a divorce take in California?", href: "/blog/how-long-does-divorce-take-california-ventura" },
+          { label: "How much does a divorce cost in Ventura County?", href: "/blog/cost-of-divorce-ventura-county" },
+          { label: "Rachel's Ventura divorce practice", href: "/family-law/divorce" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Where do I file for divorce in Ventura County?",
+        a: "Divorce cases are filed with the Ventura Superior Court's family law division at the Hall of Justice on South Victoria Avenue in Ventura. You must meet California's residency requirements to file here.",
+      },
+      {
+        q: "What are the residency requirements to file for divorce in California?",
+        a: "You or your spouse must have lived in California for at least six months and in the county of filing for at least three months before filing for divorce.",
+      },
+      {
+        q: "When does the six-month divorce waiting period start?",
+        a: "It starts when the responding spouse is served with the petition or otherwise appears in the case — not on the date of filing. A divorce cannot be finalized before that six-month period ends.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-get-restraining-order-ventura-county",
+    title: "How to Get a Restraining Order in Ventura County",
+    metaTitle: "How to Get a Restraining Order in Ventura County | Rachel Reed Law",
+    description:
+      "Need protection? A Ventura attorney explains how to get a domestic violence restraining order in Ventura County — the forms, the temporary order, and the hearing.",
+    excerpt:
+      "If you're in danger, a restraining order can offer fast protection. Here's how the process works in Ventura County — and how to put your strongest case in front of the judge.",
+    category: "Family Law",
+    date: "2026-06-11",
+    keywords: [
+      "how to get a restraining order Ventura County",
+      "domestic violence restraining order California",
+      "Ventura restraining order attorney",
+    ],
+    image: images.portraitWalking,
+    relatedPractice: { label: "Restraining Orders", href: "/family-law/domestic-violence" },
+    body: [
+      {
+        type: "p",
+        text: "If you're being threatened, harassed, or abused, a domestic violence restraining order (DVRO) can provide fast, court-backed protection. In Ventura County, the process is designed to move quickly when there's an immediate danger. Here's how it works.",
+      },
+      { type: "h2", text: "Step 1: Request a temporary restraining order" },
+      {
+        type: "p",
+        text: "You begin by filing a request with the court describing what happened and the protection you need. If the judge finds there's an immediate threat, they can issue a Temporary Restraining Order (TRO) — often the same day or the next — that protects you until a full hearing can be held.",
+      },
+      { type: "h2", text: "Step 2: The other person is served" },
+      {
+        type: "p",
+        text: "The person you're seeking protection from must be served with the paperwork and notified of the hearing. The TRO takes effect once they're served and remains in place until the hearing.",
+      },
+      { type: "h2", text: "Step 3: The court hearing" },
+      {
+        type: "p",
+        text: "At the hearing — usually within a few weeks — both sides can present evidence and testimony. If the judge finds domestic violence occurred, they can issue a longer-term restraining order, which in California can last up to five years and may be renewed.",
+      },
+      { type: "h2", text: "What a restraining order can do" },
+      {
+        type: "ul",
+        items: [
+          "Order the other person to stay away from you, your home, and your work",
+          "Order them to move out of a shared residence",
+          "Require them to surrender any firearms",
+          "Include protections for your children",
+          "Establish temporary custody and support in some cases",
+        ],
+      },
+      {
+        type: "callout",
+        title: "Your hearing is your one chance to be heard.",
+        text: "Presenting clear evidence makes all the difference. Rachel can help you prepare and stand with you in court. Reach out today.",
+      },
+      { type: "h2", text: "What to bring" },
+      {
+        type: "p",
+        text: "Evidence wins these hearings. Gather any threatening texts, emails, or voicemails, photographs of injuries or property damage, medical or police records, and the names of any witnesses. Organized, credible evidence helps the judge see the full picture.",
+      },
+      {
+        type: "links",
+        title: "Related reading",
+        items: [
+          { label: "Can you get a restraining order dropped in California?", href: "/blog/drop-domestic-violence-restraining-order-california" },
+          { label: "Rachel's restraining order & domestic violence practice", href: "/family-law/domestic-violence" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How fast can I get a restraining order in Ventura County?",
+        a: "When there's an immediate threat, a Temporary Restraining Order can often be issued within a day. A court hearing for a longer-term order typically follows within a few weeks.",
+      },
+      {
+        q: "How long does a domestic violence restraining order last in California?",
+        a: "A long-term domestic violence restraining order can last up to five years and may be renewed. A temporary order lasts until the court hearing.",
+      },
+      {
+        q: "Do I need a lawyer to get a restraining order?",
+        a: "You can request one on your own, but these hearings move fast and the outcome matters greatly. An attorney can help you gather and present evidence persuasively and protect your interests, especially when children or custody are involved.",
+      },
+    ],
+  },
+  {
+    slug: "child-custody-mediation-ventura-county-ccrc",
+    title: "Child Custody Mediation in Ventura County: What to Expect (CCRC)",
+    metaTitle: "Child Custody Mediation in Ventura County (CCRC) | Rachel Reed Law",
+    description:
+      "Before a custody hearing, Ventura County parents attend Child Custody Recommending Counseling. A local attorney explains what CCRC is and how to prepare.",
+    excerpt:
+      "Before a judge decides custody, Ventura County sends parents to Child Custody Recommending Counseling. Knowing what to expect — and how to prepare — can shape your whole case.",
+    category: "Family Law",
+    date: "2026-06-12",
+    keywords: [
+      "child custody mediation Ventura County",
+      "CCRC California",
+      "custody recommending counseling Ventura",
+    ],
+    image: images.portraitCasual,
+    relatedPractice: { label: "Child Custody", href: "/family-law/child-custody" },
+    body: [
+      {
+        type: "p",
+        text: "If you have a custody dispute in Ventura County, you'll likely be ordered to attend Child Custody Recommending Counseling (CCRC) — often simply called custody mediation — before any judge hears your case. Understanding this step is important, because in counties like Ventura the counselor can make a recommendation to the judge.",
+      },
+      { type: "h2", text: "What is CCRC?" },
+      {
+        type: "p",
+        text: "CCRC is a meeting with a neutral, court-connected counselor whose job is to help parents reach an agreement on a parenting plan. The goal is to resolve custody and visitation cooperatively, focusing on the best interests of the child, before turning to a contested hearing.",
+      },
+      { type: "h2", text: "The key difference: recommending counseling" },
+      {
+        type: "callout",
+        title: "In Ventura County, the counselor's recommendation carries weight.",
+        text: "Because this is 'recommending' counseling, if you don't reach an agreement the counselor may make a recommendation to the judge. That makes preparation essential.",
+      },
+      {
+        type: "p",
+        text: "Unlike confidential mediation in some counties, recommending counseling means that if parents can't agree, the counselor may submit a recommendation to the court. Judges often give those recommendations significant weight — so how you present yourself in this meeting can influence the outcome of your entire case.",
+      },
+      { type: "h2", text: "How to prepare" },
+      {
+        type: "ul",
+        items: [
+          "Focus on your child's needs, not your grievances with the other parent",
+          "Come with a realistic, child-centered parenting schedule in mind",
+          "Be calm, respectful, and cooperative — the counselor is watching how you communicate",
+          "Be honest about any genuine safety concerns, with specifics",
+          "Avoid badmouthing the other parent; it tends to backfire",
+        ],
+      },
+      { type: "h2", text: "How an attorney helps" },
+      {
+        type: "p",
+        text: "While attorneys typically don't attend the CCRC session itself, Rachel prepares you thoroughly beforehand — helping you frame your concerns, anticipate questions, and present yourself as the reasonable, child-focused parent you are. That preparation can make the difference between a favorable recommendation and an uphill battle.",
+      },
+      {
+        type: "links",
+        title: "Related reading",
+        items: [
+          { label: "How is child custody decided in Ventura County?", href: "/blog/how-child-custody-is-decided-ventura-county" },
+          { label: "50/50 custody schedules in California", href: "/blog/50-50-custody-schedules-california" },
+          { label: "Rachel's child custody practice", href: "/family-law/child-custody" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Is custody mediation required in Ventura County?",
+        a: "Yes. In California, parents with a contested custody or visitation issue are generally required to attend custody mediation — known as Child Custody Recommending Counseling (CCRC) — before the matter goes before a judge.",
+      },
+      {
+        q: "Does the mediator make a recommendation to the judge?",
+        a: "In 'recommending' counties like Ventura, yes — if parents don't reach an agreement, the counselor can make a recommendation to the court, and judges often give it significant weight. That's why preparation matters.",
+      },
+      {
+        q: "Can my attorney attend the CCRC session?",
+        a: "Typically attorneys do not attend the session itself, but your attorney can prepare you thoroughly beforehand so you present your concerns clearly and come across as a reasonable, child-focused parent.",
+      },
+    ],
+  },
+  {
+    slug: "50-50-custody-schedules-california",
+    title: "50/50 Custody Schedules in California: How They Work",
+    metaTitle: "50/50 Custody Schedules in California: How They Work | Rachel Reed Law",
+    description:
+      "Thinking about a 50/50 custody schedule? A Ventura family law attorney explains common joint-custody schedules in California and what makes them work.",
+    excerpt:
+      "50/50 custody can work beautifully — or fall apart — depending on the schedule and the parents. Here are the common options in California and how courts view them.",
+    category: "Family Law",
+    date: "2026-06-13",
+    keywords: [
+      "50/50 custody schedule California",
+      "joint custody schedules California",
+      "shared custody Ventura County",
+    ],
+    image: images.portraitWalking,
+    relatedPractice: { label: "Child Custody", href: "/family-law/child-custody" },
+    body: [
+      {
+        type: "p",
+        text: "Many parents want a 50/50 custody arrangement so both stay fully involved in their children's lives. California courts can and do order shared physical custody when it serves the child's best interests. The real question is usually which schedule fits your family.",
+      },
+      { type: "h2", text: "Common 50/50 schedules" },
+      {
+        type: "p",
+        text: "There's no one-size-fits-all schedule. The most common 50/50 arrangements include:",
+      },
+      {
+        type: "ul",
+        items: [
+          "Week-on/week-off — children alternate full weeks with each parent",
+          "2-2-3 — two days with one parent, two with the other, then a three-day weekend that alternates",
+          "2-2-5-5 — two days with each parent, then five days with each",
+          "Alternating weeks with a mid-week visit or dinner",
+        ],
+      },
+      { type: "h2", text: "What makes a 50/50 schedule work" },
+      {
+        type: "p",
+        text: "Shared custody works best when parents live reasonably close together, can communicate without constant conflict, and keep the children's school and activities stable. The child's age matters too — younger children sometimes do better with more frequent transitions, while older kids may prefer longer stretches.",
+      },
+      { type: "h2", text: "How California courts approach it" },
+      {
+        type: "p",
+        text: "California law favors frequent and continuing contact with both parents, and courts decide custody by the best interests of the child. A 50/50 schedule is one option among many — what matters is whether the arrangement genuinely serves the child, not splitting time as a matter of fairness to the parents.",
+      },
+      {
+        type: "callout",
+        title: "Want a parenting plan that actually fits your life?",
+        text: "Rachel can help you build a schedule that protects your time with your children and holds up in court. Schedule a free consultation.",
+      },
+      {
+        type: "links",
+        title: "Related reading",
+        items: [
+          { label: "How is child custody decided in Ventura County?", href: "/blog/how-child-custody-is-decided-ventura-county" },
+          { label: "Can a parent deny visitation in California?", href: "/blog/can-a-parent-deny-visitation-california" },
+          { label: "Rachel's child custody practice", href: "/family-law/child-custody" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Does California favor 50/50 custody?",
+        a: "California favors frequent and continuing contact with both parents but does not automatically order 50/50. Courts decide custody by the best interests of the child, and a shared schedule is ordered when it genuinely serves the child.",
+      },
+      {
+        q: "What is the most common 50/50 custody schedule?",
+        a: "Common options include week-on/week-off, 2-2-3, and 2-2-5-5. The best choice depends on the children's ages, the parents' proximity, work schedules, and how well the parents communicate.",
+      },
+      {
+        q: "Does 50/50 custody mean no one pays child support?",
+        a: "Not necessarily. Even with equal time, child support can still be ordered because the California formula also accounts for each parent's income, not just timeshare.",
+      },
+    ],
+  },
+  {
+    slug: "legal-separation-vs-divorce-california",
+    title: "Legal Separation vs. Divorce in California: What's the Difference?",
+    metaTitle: "Legal Separation vs. Divorce in California | Rachel Reed Law",
+    description:
+      "Not sure whether to pursue legal separation or divorce? A Ventura family law attorney explains the key differences in California and which may be right for you.",
+    excerpt:
+      "Legal separation and divorce resolve many of the same issues — but one ends your marriage and one doesn't. Here's how to tell which fits your situation.",
+    category: "Family Law",
+    date: "2026-06-14",
+    keywords: [
+      "legal separation vs divorce California",
+      "legal separation California",
+      "Ventura legal separation attorney",
+    ],
+    image: images.portraitSuited,
+    relatedPractice: { label: "Divorce", href: "/family-law/divorce" },
+    body: [
+      {
+        type: "p",
+        text: "When a marriage is in trouble, divorce isn't the only option. California also allows legal separation, which resolves many of the same issues without legally ending the marriage. Understanding the difference helps you choose the path that fits your circumstances and values.",
+      },
+      { type: "h2", text: "The core difference" },
+      {
+        type: "p",
+        text: "A divorce (dissolution) legally ends your marriage, leaving both spouses free to remarry. A legal separation addresses the same practical issues — dividing property, support, and a parenting plan — but you remain legally married at the end. That single distinction drives everything else.",
+      },
+      { type: "h2", text: "Why some couples choose legal separation" },
+      {
+        type: "ul",
+        items: [
+          "Religious or personal beliefs about ending a marriage",
+          "Maintaining certain health insurance or other benefits (check the plan's rules first)",
+          "Not yet meeting California's residency requirement for divorce",
+          "A desire for time apart while keeping the door open to reconciliation",
+        ],
+      },
+      { type: "h2", text: "What they have in common" },
+      {
+        type: "p",
+        text: "Both processes can resolve custody and visitation, child and spousal support, and the division of property and debts. Notably, legal separation has no six-month waiting period the way divorce does — though it also does not end the marriage.",
+      },
+      { type: "h2", text: "Can you change your mind?" },
+      {
+        type: "p",
+        text: "Yes. A legal separation can later be converted into a divorce if you decide you want to end the marriage. Many couples start with what fits today, knowing they can revisit the decision.",
+      },
+      {
+        type: "callout",
+        title: "Not sure which path is right?",
+        text: "Rachel can walk you through the trade-offs based on your specific situation. Start with a free, confidential consultation.",
+      },
+      {
+        type: "links",
+        title: "Related reading",
+        items: [
+          { label: "How to file for divorce in Ventura County", href: "/blog/how-to-file-for-divorce-ventura-county" },
+          { label: "How property is divided in a California divorce", href: "/blog/how-property-divided-california-divorce" },
+          { label: "Rachel's Ventura divorce practice", href: "/family-law/divorce" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "What is the main difference between legal separation and divorce in California?",
+        a: "A divorce legally ends the marriage so both spouses can remarry, while a legal separation resolves the same issues — property, support, custody — but leaves the couple legally married.",
+      },
+      {
+        q: "Is there a waiting period for legal separation in California?",
+        a: "No. Unlike divorce, legal separation has no six-month waiting period. However, it also does not end the marriage. There's also no residency requirement, which is why some couples start with separation.",
+      },
+      {
+        q: "Can a legal separation be converted to a divorce?",
+        a: "Yes. If you later decide to end the marriage, a legal separation can be converted into a divorce. An attorney can help you make the change.",
+      },
+    ],
+  },
+  {
+    slug: "can-a-parent-deny-visitation-california",
+    title: "Can a Parent Deny Visitation in California?",
+    metaTitle: "Can a Parent Deny Visitation in California? | Rachel Reed Law",
+    description:
+      "Can you withhold visitation if your co-parent doesn't pay support — or can they? A Ventura custody attorney explains your rights and how to enforce a custody order.",
+    excerpt:
+      "Withholding the kids because support wasn't paid? Being denied your court-ordered time? Here's what California law actually allows — and what to do about it.",
+    category: "Family Law",
+    date: "2026-06-15",
+    keywords: [
+      "can a parent deny visitation California",
+      "withholding visitation California",
+      "enforce custody order Ventura County",
+    ],
+    image: images.portraitWalking,
+    relatedPractice: { label: "Child Custody", href: "/family-law/child-custody" },
+    body: [
+      {
+        type: "p",
+        text: "This question comes up constantly, and the confusion causes real harm. Two of the most common scenarios: a parent withholds visitation because the other hasn't paid child support, or a parent simply refuses to hand over the kids despite a court order. Here's what California law says.",
+      },
+      { type: "h2", text: "Custody and support are separate" },
+      {
+        type: "callout",
+        title: "You can't withhold the kids over unpaid support — and vice versa.",
+        text: "California treats custody/visitation and child support as separate obligations. Withholding visitation because support wasn't paid can put you in violation of the court order.",
+      },
+      {
+        type: "p",
+        text: "It's understandable to feel that if your co-parent isn't paying, they shouldn't get time with the children. But the law doesn't work that way. Visitation and support are independent. If support isn't being paid, the remedy is to enforce the support order through the court — not to withhold the children.",
+      },
+      { type: "h2", text: "When can visitation be denied?" },
+      {
+        type: "p",
+        text: "Generally, a parent cannot unilaterally deny court-ordered visitation. The narrow exception is a genuine, immediate safety emergency — for example, the other parent is intoxicated at exchange or there's a credible threat of harm. Even then, you should document everything and seek a court order right away rather than simply refusing contact going forward.",
+      },
+      { type: "h2", text: "What to do if you're being denied your time" },
+      {
+        type: "ol",
+        items: [
+          "Keep a detailed record of every missed or denied visit",
+          "Communicate in writing and stay calm and civil",
+          "Don't retaliate by violating the order yourself",
+          "Ask the court to enforce the existing order",
+          "Consider requesting a modification if the pattern continues",
+        ],
+      },
+      {
+        type: "p",
+        text: "California courts take violations of custody orders seriously. Repeated, willful interference with the other parent's time can even affect custody itself.",
+      },
+      {
+        type: "links",
+        title: "Related reading",
+        items: [
+          { label: "How is child custody decided in Ventura County?", href: "/blog/how-child-custody-is-decided-ventura-county" },
+          { label: "Child & spousal support in Ventura County", href: "/family-law/support" },
+          { label: "Rachel's child custody practice", href: "/family-law/child-custody" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Can I stop visitation if my ex isn't paying child support?",
+        a: "No. In California, custody/visitation and child support are separate. Withholding visitation over unpaid support can put you in violation of the custody order. Instead, enforce the support order through the court.",
+      },
+      {
+        q: "Can a parent deny court-ordered visitation in California?",
+        a: "Generally no. A parent cannot unilaterally deny court-ordered visitation except in a genuine, immediate safety emergency — and even then should document it and seek a court order promptly rather than simply refusing future contact.",
+      },
+      {
+        q: "What can I do if my co-parent keeps denying my visitation?",
+        a: "Document each denial, communicate in writing, and ask the court to enforce the order. Persistent, willful interference can have consequences and may even affect custody. An attorney can help you enforce or modify the order.",
+      },
+    ],
+  },
+  {
+    slug: "uncontested-divorce-california-do-you-need-a-lawyer",
+    title: "Uncontested Divorce in California: Do You Need a Lawyer?",
+    metaTitle: "Uncontested Divorce in California: Do You Need a Lawyer? | Rachel Reed Law",
+    description:
+      "If you and your spouse agree on everything, do you still need a divorce lawyer in California? A Ventura attorney explains the real risks of going it alone.",
+    excerpt:
+      "An uncontested divorce sounds simple enough to handle yourself — and sometimes it is. But a few common mistakes can cost you for years. Here's how to decide.",
+    category: "Family Law",
+    date: "2026-06-16",
+    keywords: [
+      "uncontested divorce California",
+      "do I need a lawyer for uncontested divorce",
+      "Ventura uncontested divorce attorney",
+    ],
+    image: images.portraitCasual,
+    relatedPractice: { label: "Divorce", href: "/family-law/divorce" },
+    body: [
+      {
+        type: "p",
+        text: "If you and your spouse genuinely agree on everything — property, support, and a parenting plan — an uncontested divorce is the fastest, least expensive path. You're not legally required to hire a lawyer. But 'uncontested' doesn't always mean 'simple,' and a few common mistakes can be expensive and hard to undo.",
+      },
+      { type: "h2", text: "When doing it yourself may be fine" },
+      {
+        type: "p",
+        text: "A short marriage with no children, few assets, no real estate, and no retirement accounts to divide is the kind of case where many couples can complete the paperwork themselves. If your finances are simple and you truly agree, the process can be straightforward.",
+      },
+      { type: "h2", text: "Where people get into trouble" },
+      {
+        type: "ul",
+        items: [
+          "Dividing retirement accounts or pensions, which often require a special court order",
+          "Tax consequences of how assets and support are structured",
+          "Waiving rights unknowingly in the agreement language",
+          "Incomplete financial disclosures that can void the agreement later",
+          "Vague parenting plans that cause conflict down the road",
+        ],
+      },
+      { type: "h2", text: "A middle path: have your agreement reviewed" },
+      {
+        type: "p",
+        text: "You don't have to choose between full representation and total DIY. Even in an amicable case, having an attorney prepare or review your agreement before you sign protects you from costly errors — for a fraction of the cost of a contested divorce. It's often the smartest money you'll spend.",
+      },
+      {
+        type: "callout",
+        title: "Keep it amicable — and protect yourself.",
+        text: "Rachel can prepare or review your uncontested divorce so it's done right. Start with a free, confidential consultation.",
+      },
+      {
+        type: "links",
+        title: "Related reading",
+        items: [
+          { label: "How much does a divorce cost in Ventura County?", href: "/blog/cost-of-divorce-ventura-county" },
+          { label: "How to file for divorce in Ventura County", href: "/blog/how-to-file-for-divorce-ventura-county" },
+          { label: "Rachel's Ventura divorce practice", href: "/family-law/divorce" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Do I need a lawyer for an uncontested divorce in California?",
+        a: "You're not required to, and simple cases can sometimes be handled alone. But mistakes around retirement division, taxes, disclosures, and agreement language can be costly and hard to undo. Having an attorney prepare or review your agreement is inexpensive protection.",
+      },
+      {
+        q: "What makes a divorce 'uncontested'?",
+        a: "A divorce is uncontested when both spouses agree on all major issues — property and debt division, child custody and support, and spousal support — so there's nothing for a judge to decide.",
+      },
+      {
+        q: "Is an uncontested divorce cheaper?",
+        a: "Yes. Because it requires far less attorney time and no contested hearings, an uncontested divorce is the least expensive way to divorce. Having an attorney review the agreement still costs a fraction of a contested case.",
+      },
+    ],
+  },
+  {
+    slug: "ventura-county-divorce-guide",
+    title: "The Complete Guide to Divorce in Ventura County, California",
+    metaTitle: "Divorce in Ventura County: The Complete Guide | Rachel Reed Law",
+    description:
+      "Everything you need to know about getting a divorce in Ventura County, California — the process, timeline, cost, property, support, custody, and where to get help.",
+    excerpt:
+      "Your complete, plain-English guide to divorce in Ventura County — the process, how long it takes, what it costs, and how property, support, and custody are decided.",
+    category: "Family Law",
+    date: "2026-06-17",
+    keywords: [
+      "divorce Ventura County",
+      "Ventura County divorce guide",
+      "how does divorce work California",
+    ],
+    image: images.portraitSuited,
+    relatedPractice: { label: "Divorce", href: "/family-law/divorce" },
+    body: [
+      {
+        type: "p",
+        text: "Divorce is one of the hardest transitions anyone goes through — emotionally and practically. This guide pulls together the essentials of getting a divorce in Ventura County, California, in plain English, and links to deeper articles on each topic. If you're just starting to think about divorce, start here.",
+      },
+      { type: "h2", text: "How divorce works in California" },
+      {
+        type: "p",
+        text: "California is a no-fault state, so you don't have to prove wrongdoing — 'irreconcilable differences' is enough. Your case proceeds through the Ventura Superior Court's family law division: you file a petition, serve your spouse, exchange financial disclosures, resolve the issues, and obtain a judgment. There's a mandatory six-month waiting period that begins when your spouse is served.",
+      },
+      {
+        type: "links",
+        title: "Start with the basics",
+        items: [
+          { label: "How to file for divorce in Ventura County (step by step)", href: "/blog/how-to-file-for-divorce-ventura-county" },
+          { label: "How long does a divorce take in California?", href: "/blog/how-long-does-divorce-take-california-ventura" },
+        ],
+      },
+      { type: "h2", text: "How much it costs" },
+      {
+        type: "p",
+        text: "Cost depends mostly on conflict. An uncontested divorce involves court filing fees and limited attorney time; a contested case over custody or finances costs more. You have real control over the total by staying organized and reasonable.",
+      },
+      {
+        type: "links",
+        items: [
+          { label: "How much does a divorce cost in Ventura County?", href: "/blog/cost-of-divorce-ventura-county" },
+          { label: "Do you need a lawyer for an uncontested divorce?", href: "/blog/uncontested-divorce-california-do-you-need-a-lawyer" },
+        ],
+      },
+      { type: "h2", text: "Dividing property and debt" },
+      {
+        type: "p",
+        text: "California is a community-property state, so most assets and debts acquired during the marriage are divided equally — but characterizing, valuing, and tracing assets is where things get contested.",
+      },
+      {
+        type: "links",
+        items: [
+          { label: "How property is divided in a California divorce", href: "/blog/how-property-divided-california-divorce" },
+        ],
+      },
+      { type: "h2", text: "Support: child and spousal" },
+      {
+        type: "p",
+        text: "Child support follows a statewide formula based largely on income and parenting time. Spousal support is based on a list of factors, including the length of the marriage and each spouse's earning capacity.",
+      },
+      {
+        type: "links",
+        items: [
+          { label: "Spousal support in California: how much and how long?", href: "/blog/spousal-support-california-how-much-how-long" },
+        ],
+      },
+      { type: "h2", text: "Custody and your children" },
+      {
+        type: "p",
+        text: "Custody is decided by the best interests of the child. In Ventura County, contested custody cases go through Child Custody Recommending Counseling before a judge gets involved, and the counselor's recommendation can carry real weight.",
+      },
+      {
+        type: "links",
+        items: [
+          { label: "How is child custody decided in Ventura County?", href: "/blog/how-child-custody-is-decided-ventura-county" },
+          { label: "Child custody mediation in Ventura County (CCRC)", href: "/blog/child-custody-mediation-ventura-county-ccrc" },
+          { label: "50/50 custody schedules in California", href: "/blog/50-50-custody-schedules-california" },
+        ],
+      },
+      {
+        type: "callout",
+        title: "Ready to talk to a real Ventura divorce attorney?",
+        text: "Rachel gives you honest answers and a clear plan — free and confidential, reviewed by her personally.",
+      },
+      { type: "h2", text: "Where to get help in Ventura County" },
+      {
+        type: "p",
+        text: "Divorce cases are handled at the Ventura County Hall of Justice on South Victoria Avenue. Rachel Reed Law is located nearby on County Square Drive, representing clients throughout Ventura, Oxnard, Camarillo, Thousand Oaks, Simi Valley, and the surrounding communities.",
+      },
+      {
+        type: "links",
+        title: "Talk to Rachel",
+        items: [
+          { label: "Rachel's Ventura divorce practice", href: "/family-law/divorce" },
+          { label: "Contact Rachel for a free consultation", href: "/contact" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How does divorce work in Ventura County, California?",
+        a: "California is no-fault. You file a petition with the Ventura Superior Court, serve your spouse, exchange financial disclosures, resolve property, support, and custody, and obtain a judgment. A mandatory six-month waiting period begins when your spouse is served.",
+      },
+      {
+        q: "How long does a divorce take in Ventura County?",
+        a: "At minimum, six months from the date the responding spouse is served. Uncontested cases may finalize near that minimum; contested cases over custody or finances can take longer.",
+      },
+      {
+        q: "Do I need a divorce lawyer in Ventura County?",
+        a: "Simple, fully uncontested cases can sometimes be handled alone, but contested issues — and even complex 'amicable' ones — benefit from representation. Rachel offers a free consultation to help you understand your options.",
+      },
+    ],
+  },
 ];
 
 export const postsBySlug = new Map(posts.map((p) => [p.slug, p]));
@@ -875,4 +1616,21 @@ export function getSortedPosts(): Post[] {
 
 export function getPostsByCategory(category: PostCategory): Post[] {
   return getSortedPosts().filter((p) => p.category === category);
+}
+
+/**
+ * Posts relevant to a practice page. Prefers posts whose relatedPractice points
+ * at this exact practice path, then fills in with same-category posts.
+ */
+export function getPostsForPractice(
+  practicePath: string,
+  category: PostCategory,
+  limit = 3
+): Post[] {
+  const sorted = getSortedPosts();
+  const exact = sorted.filter((p) => p.relatedPractice.href === `/${practicePath}`);
+  const sameCategory = sorted.filter(
+    (p) => p.category === category && !exact.includes(p)
+  );
+  return [...exact, ...sameCategory].slice(0, limit);
 }
