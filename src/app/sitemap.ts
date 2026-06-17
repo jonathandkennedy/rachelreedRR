@@ -3,6 +3,7 @@ import { site } from "@/lib/site";
 import { practices } from "@/lib/practices";
 import { posts } from "@/lib/blog";
 import { locations } from "@/lib/locations";
+import { getComboParams } from "@/lib/combos";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = site.url;
@@ -24,6 +25,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  const comboRoutes: MetadataRoute.Sitemap = getComboParams().map(({ city, practice }) => ({
+    url: `${base}/areas-we-serve/${city}/${practice}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.75,
+  }));
+
   const practiceRoutes: MetadataRoute.Sitemap = practices.map((p) => ({
     url: `${base}/${p.path}`,
     lastModified: now,
@@ -38,5 +46,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticRoutes, ...practiceRoutes, ...locationRoutes, ...postRoutes];
+  return [
+    ...staticRoutes,
+    ...practiceRoutes,
+    ...locationRoutes,
+    ...comboRoutes,
+    ...postRoutes,
+  ];
 }

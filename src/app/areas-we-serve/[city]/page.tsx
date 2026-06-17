@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getLocation, locations } from "@/lib/locations";
 import { getPillars } from "@/lib/practices";
+import { comboPractices, isComboCity } from "@/lib/combos";
 import { reviews } from "@/lib/reviews";
 import { site } from "@/lib/site";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -99,20 +100,39 @@ export default async function CityPage({
             <h2 className="mt-12 font-display text-2xl text-cream sm:text-3xl">
               How Rachel helps {loc.city} families
             </h2>
-            <div className="mt-6 grid gap-4 sm:grid-cols-3">
-              {pillars.map((p) => (
-                <Link
-                  key={p.path}
-                  href={`/${p.path}`}
-                  className="card group p-5 transition-all hover:-translate-y-1 hover:border-gold/50"
-                >
-                  <h3 className="text-lg text-cream">{p.navLabel}</h3>
-                  <span className="mt-2 inline-block text-sm font-semibold text-gold-light">
-                    Learn more →
-                  </span>
-                </Link>
-              ))}
-            </div>
+            {isComboCity(loc.slug) ? (
+              <div className="mt-6 grid gap-4 sm:grid-cols-2">
+                {comboPractices.map((c) => (
+                  <Link
+                    key={c.slug}
+                    href={`/areas-we-serve/${loc.slug}/${c.slug}`}
+                    className="card group p-5 transition-all hover:-translate-y-1 hover:border-gold/50"
+                  >
+                    <h3 className="text-lg text-cream">
+                      {loc.city} {c.label} Attorney
+                    </h3>
+                    <span className="mt-2 inline-block text-sm font-semibold text-gold-light">
+                      {c.label} in {loc.city} →
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            ) : (
+              <div className="mt-6 grid gap-4 sm:grid-cols-3">
+                {pillars.map((p) => (
+                  <Link
+                    key={p.path}
+                    href={`/${p.path}`}
+                    className="card group p-5 transition-all hover:-translate-y-1 hover:border-gold/50"
+                  >
+                    <h3 className="text-lg text-cream">{p.navLabel}</h3>
+                    <span className="mt-2 inline-block text-sm font-semibold text-gold-light">
+                      Learn more →
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            )}
 
             {/* Local context */}
             <div className="mt-12">
