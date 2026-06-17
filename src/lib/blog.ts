@@ -1602,6 +1602,447 @@ export const posts: Post[] = [
       },
     ],
   },
+
+  /* ---------- Privacy & conduct-during-divorce cluster (batch 3) ---------- */
+  {
+    slug: "spouse-look-through-phone-without-consent-california",
+    title: "Is Your Spouse Allowed to Look Through Your Phone Without Your Consent?",
+    metaTitle: "Can Your Spouse Look Through Your Phone in California? | Rachel Reed Law",
+    description:
+      "Can your spouse legally go through your phone in California — even while married? A Ventura divorce attorney explains your privacy rights and what it means for divorce.",
+    excerpt:
+      "Short answer: being married does not give your spouse the right to snoop through your password-protected phone. Here's what California law actually says — and why it matters in a divorce.",
+    category: "Family Law",
+    date: "2026-05-12",
+    keywords: [
+      "can my spouse look through my phone California",
+      "spouse phone privacy California",
+      "snooping spouse divorce evidence California",
+    ],
+    image: images.portraitCasual,
+    relatedPractice: { label: "Divorce", href: "/family-law/divorce" },
+    body: [
+      {
+        type: "p",
+        text: "It's one of the most common questions in a struggling marriage: can your spouse legally go through your phone, email, or social media without your permission? The short answer in California is generally no — marriage does not erase your right to privacy in your password-protected devices and accounts.",
+      },
+      { type: "h2", text: "You still have a right to privacy — even when married" },
+      {
+        type: "p",
+        text: "California has some of the strongest privacy protections in the country, and they don't disappear at the altar. If your phone, email, or social media accounts are password-protected, you generally have a reasonable expectation of privacy in them. Accessing them without your consent can cross legal lines.",
+      },
+      { type: "h2", text: "It can even be against the law" },
+      {
+        type: "p",
+        text: "Depending on how it's done, snooping can potentially violate California laws, including those addressing unauthorized access to computers and electronic data (Penal Code 502) and the state's strict eavesdropping and recording rules. Hacking into an account, guessing a password, or installing spyware to read someone's private messages can carry real legal exposure.",
+      },
+      { type: "h2", text: "What about shared phones or family accounts?" },
+      {
+        type: "p",
+        text: "The picture is murkier for genuinely shared devices, joint accounts, or a phone with no password that's left open. Privacy expectations are lower there. But that's very different from breaking into a spouse's personal, protected device — and the safest assumption is that someone's private accounts are off-limits.",
+      },
+      {
+        type: "callout",
+        title: "Snooping can backfire — badly.",
+        text: "Evidence obtained illegally may be inadmissible, and the snooping itself can become a problem for you. If you think evidence matters in your case, get it the right way.",
+      },
+      { type: "h2", text: "The right way to get evidence in a divorce" },
+      {
+        type: "p",
+        text: "Here's the irony: if information on a phone is genuinely relevant to your divorce — hidden assets, for example — there's a lawful way to get it. The formal discovery process lets your attorney request documents, messages, and financial records through proper channels, so the evidence is admissible and you're not the one in trouble.",
+      },
+      {
+        type: "links",
+        title: "Related reading",
+        items: [
+          { label: "Can my ex record me without my consent in California?", href: "/blog/ex-record-me-without-consent-california" },
+          { label: "Can text messages be used as evidence in a California divorce?", href: "/blog/text-messages-evidence-california-divorce" },
+          { label: "Rachel's Ventura divorce practice", href: "/family-law/divorce" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Can my spouse legally go through my phone in California?",
+        a: "Generally no. Marriage doesn't eliminate your privacy rights. If your phone is password-protected, you typically have a reasonable expectation of privacy, and accessing it without consent — by hacking, guessing a password, or installing spyware — can violate California law.",
+      },
+      {
+        q: "Can evidence from my snooped phone be used in a divorce?",
+        a: "Often not. Evidence obtained illegally may be inadmissible, and the act of obtaining it can expose the snooper to liability. If information is relevant, the lawful route is formal discovery through your attorney.",
+      },
+      {
+        q: "Is it different if we share the phone or account?",
+        a: "Privacy expectations are lower for genuinely shared, unprotected devices or joint accounts. But breaking into a spouse's personal, password-protected device or account is a different matter and can be unlawful.",
+      },
+    ],
+  },
+  {
+    slug: "ex-record-me-without-consent-california",
+    title: "Can My Ex Record Me Without My Consent in California?",
+    metaTitle: "Can My Ex Record Me Without My Consent in California? | Rachel Reed Law",
+    description:
+      "California is a two-party consent state. A Ventura family law attorney explains when recording is illegal, what it means for your divorce or custody case, and what to do.",
+    excerpt:
+      "California requires everyone's consent to record a private conversation. So can your ex secretly record you — and can they use it against you? Here's the law.",
+    category: "Family Law",
+    date: "2026-05-19",
+    keywords: [
+      "can my ex record me without consent California",
+      "two party consent California recording",
+      "secret recording divorce custody California",
+    ],
+    image: images.portraitWalking,
+    relatedPractice: { label: "Divorce", href: "/family-law/divorce" },
+    body: [
+      {
+        type: "p",
+        text: "When a relationship turns adversarial, people sometimes try to 'catch' the other person on a recording. But California has strict rules about this — and getting it wrong can be a crime. Here's what you need to know about being recorded by your ex.",
+      },
+      { type: "h2", text: "California is a two-party (all-party) consent state" },
+      {
+        type: "p",
+        text: "Under California law (Penal Code 632), it is generally illegal to record a confidential conversation without the consent of everyone involved. Unlike some states where only one party needs to consent, California requires all parties to agree. Secretly recording a private phone call or in-person conversation can violate this law.",
+      },
+      { type: "h2", text: "What counts as 'confidential'?" },
+      {
+        type: "p",
+        text: "The protection applies to conversations where the parties reasonably expect privacy. A private phone call or a conversation behind closed doors typically qualifies. A shouting match in a public park, where anyone could overhear, may not. The context matters.",
+      },
+      { type: "h2", text: "Can an illegal recording be used in court?" },
+      {
+        type: "callout",
+        title: "Illegally made recordings are often inadmissible — and risky.",
+        text: "A recording made in violation of California's eavesdropping law may be excluded as evidence, and the person who made it can face penalties. Two-way trouble.",
+      },
+      {
+        type: "p",
+        text: "Recordings made in violation of the law are frequently inadmissible in court, and the person who made them can even face civil or criminal consequences. So a secret recording your ex hoped to use against you may end up hurting them instead.",
+      },
+      { type: "h2", text: "What about recording the kids or co-parenting calls?" },
+      {
+        type: "p",
+        text: "These situations get complicated quickly, especially in custody disputes. Rather than risk breaking the law — and damaging your own case — talk to an attorney about how to lawfully document concerning behavior.",
+      },
+      {
+        type: "links",
+        title: "Related reading",
+        items: [
+          { label: "Can your spouse look through your phone without consent?", href: "/blog/spouse-look-through-phone-without-consent-california" },
+          { label: "Can social media hurt my custody case?", href: "/blog/social-media-custody-case-california" },
+          { label: "Rachel's family law practice", href: "/family-law" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Is it legal to record someone without their consent in California?",
+        a: "Generally no. California is a two-party (all-party) consent state under Penal Code 632, so recording a confidential conversation requires the consent of everyone involved. Secret recordings of private conversations can be illegal.",
+      },
+      {
+        q: "Can my ex use a secret recording against me in court?",
+        a: "Often not. Recordings made in violation of California's eavesdropping law may be inadmissible, and the person who made the recording can face penalties. It can backfire on the person who recorded it.",
+      },
+      {
+        q: "Does two-party consent apply to public conversations?",
+        a: "The law protects conversations where there's a reasonable expectation of privacy. A truly public conversation that others could overhear may not be 'confidential,' but private calls and closed-door conversations typically are.",
+      },
+    ],
+  },
+  {
+    slug: "text-messages-evidence-california-divorce",
+    title: "Can Text Messages Be Used as Evidence in a California Divorce?",
+    metaTitle: "Can Text Messages Be Used as Evidence in a California Divorce? | Rachel Reed Law",
+    description:
+      "Texts, emails, and DMs can be powerful divorce evidence — if obtained and presented properly. A Ventura attorney explains the rules and the pitfalls.",
+    excerpt:
+      "Text messages can absolutely be used as evidence in a California divorce — but how you get them and prove they're real makes all the difference. Here's what to know.",
+    category: "Family Law",
+    date: "2026-05-26",
+    keywords: [
+      "text messages as evidence California divorce",
+      "are texts admissible in divorce California",
+      "digital evidence family law California",
+    ],
+    image: images.portraitSuited,
+    relatedPractice: { label: "Divorce", href: "/family-law/divorce" },
+    body: [
+      {
+        type: "p",
+        text: "In modern divorces, some of the most important evidence lives in a phone: text messages, emails, and social media. The good news (or bad news, depending on your side) is that yes, these can be used as evidence in a California divorce or custody case — with some important conditions.",
+      },
+      { type: "h2", text: "When texts are admissible" },
+      {
+        type: "p",
+        text: "To be used in court, text messages generally need to be relevant to an issue in the case, authentic (genuinely from who you say sent them), and lawfully obtained. Texts can be relevant to many issues — hidden income, threats, parenting behavior, or admissions about assets.",
+      },
+      { type: "h2", text: "How you obtained them matters" },
+      {
+        type: "p",
+        text: "This is where people stumble. Messages you received yourself, or that are on a shared account, are usually fair game. But messages you obtained by breaking into your spouse's protected phone or accounts can be inadmissible — and can expose you to liability. (See our article on whether a spouse can search your phone.)",
+      },
+      { type: "h2", text: "Don't delete — preserve" },
+      {
+        type: "callout",
+        title: "Deleting messages can be worse than the messages themselves.",
+        text: "Destroying relevant evidence ('spoliation') can lead to sanctions and make you look guilty. Preserve everything once you anticipate a dispute.",
+      },
+      { type: "h2", text: "Practical tips" },
+      {
+        type: "ul",
+        items: [
+          "Take clear screenshots that show the sender, date, and time",
+          "Back up the original messages on the device when possible",
+          "Don't edit, alter, or selectively crop messages",
+          "Don't delete texts that could be relevant — even unflattering ones",
+          "Share everything with your attorney so it's used strategically",
+        ],
+      },
+      {
+        type: "links",
+        title: "Related reading",
+        items: [
+          { label: "Can your spouse look through your phone without consent?", href: "/blog/spouse-look-through-phone-without-consent-california" },
+          { label: "How property is divided in a California divorce", href: "/blog/how-property-divided-california-divorce" },
+          { label: "Rachel's Ventura divorce practice", href: "/family-law/divorce" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Are text messages admissible in a California divorce?",
+        a: "Yes, if they're relevant, authentic, and lawfully obtained. Texts can bear on hidden income, threats, parenting, or admissions. How you obtained them is critical to whether they can be used.",
+      },
+      {
+        q: "Can I use texts I got from my spouse's phone without permission?",
+        a: "Possibly not. Messages obtained by breaking into a spouse's password-protected device or accounts can be inadmissible and may expose you to liability. Lawfully obtained messages are far safer.",
+      },
+      {
+        q: "Should I delete embarrassing text messages before my divorce?",
+        a: "No. Destroying potentially relevant evidence can lead to court sanctions and damage your credibility. Preserve everything and let your attorney advise you on how it's handled.",
+      },
+    ],
+  },
+  {
+    slug: "does-adultery-affect-divorce-california",
+    title: "Does Adultery Affect Divorce in California?",
+    metaTitle: "Does Adultery Affect Divorce in California? | Rachel Reed Law",
+    description:
+      "California is a no-fault divorce state, so does cheating matter? A Ventura divorce attorney explains when adultery does — and doesn't — affect your divorce.",
+    excerpt:
+      "Because California is a no-fault state, adultery usually doesn't change property division or support — but there are a few important exceptions. Here's the real answer.",
+    category: "Family Law",
+    date: "2026-06-02",
+    keywords: [
+      "does adultery affect divorce California",
+      "cheating and divorce California",
+      "no-fault divorce California adultery",
+    ],
+    image: images.portraitSuited,
+    relatedPractice: { label: "Divorce", href: "/family-law/divorce" },
+    body: [
+      {
+        type: "p",
+        text: "When a marriage ends because of an affair, it's natural to expect the cheating spouse to 'pay' for it in the divorce. But California law may surprise you. Because California is a no-fault divorce state, adultery usually has far less legal impact than people assume.",
+      },
+      { type: "h2", text: "No-fault means you don't prove wrongdoing" },
+      {
+        type: "p",
+        text: "In California, you don't have to prove your spouse did anything wrong to get divorced — 'irreconcilable differences' is enough. As a result, adultery by itself generally does not affect how the court divides community property or whether spousal support is awarded.",
+      },
+      { type: "h2", text: "When adultery can matter" },
+      {
+        type: "p",
+        text: "There are limited exceptions where an affair can become relevant:",
+      },
+      {
+        type: "ul",
+        items: [
+          "Wasting community money — if a spouse spent significant marital funds on an affair (gifts, trips, a second residence), that can be raised as a breach of fiduciary duty",
+          "Custody — only if the relationship genuinely affects the children's well-being, not as moral punishment",
+          "Practical conflict — affairs often raise the emotional temperature, making settlement harder",
+        ],
+      },
+      {
+        type: "callout",
+        title: "Hurt, but unsure what it means legally?",
+        text: "Rachel can tell you honestly whether an affair will actually affect your case — and where to focus your energy instead. Free, confidential consultation.",
+      },
+      { type: "h2", text: "Focus where it counts" },
+      {
+        type: "p",
+        text: "Understandably, betrayal feels like it should change everything. But pouring resources into proving an affair rarely pays off in a no-fault state. A good attorney helps you channel your energy toward what the court actually decides: a fair division of property, appropriate support, and a parenting plan that protects your children.",
+      },
+      {
+        type: "links",
+        title: "Related reading",
+        items: [
+          { label: "Dating during divorce in California: will it hurt my case?", href: "/blog/dating-during-divorce-california" },
+          { label: "How property is divided in a California divorce", href: "/blog/how-property-divided-california-divorce" },
+          { label: "Rachel's Ventura divorce practice", href: "/family-law/divorce" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Does cheating affect a divorce settlement in California?",
+        a: "Usually not. California is no-fault, so adultery by itself generally doesn't change property division or spousal support. Limited exceptions exist, such as a spouse wasting community funds on an affair.",
+      },
+      {
+        q: "Can adultery affect custody in California?",
+        a: "Only if the relationship genuinely affects the children's well-being. Courts decide custody by the best interests of the child, not to punish a parent for an affair.",
+      },
+      {
+        q: "Can I make my spouse pay for spending money on an affair?",
+        a: "Possibly. If a spouse spent significant community funds on an affair, that can be raised as a breach of fiduciary duty and factored into the division of assets. An attorney can advise based on the specifics.",
+      },
+    ],
+  },
+  {
+    slug: "dating-during-divorce-california",
+    title: "Dating During Divorce in California: Will It Hurt My Case?",
+    metaTitle: "Dating During Divorce in California: Will It Hurt Your Case? | Rachel Reed Law",
+    description:
+      "Is it okay to date before your divorce is final in California? A Ventura family law attorney explains the legal and practical risks for support and custody.",
+    excerpt:
+      "Legally, California's no-fault rules mean dating won't bar your divorce. But it can still create real problems for support, custody, and conflict. Here's the nuanced answer.",
+    category: "Family Law",
+    date: "2026-06-05",
+    keywords: [
+      "dating during divorce California",
+      "can I date before divorce is final California",
+      "dating and custody California",
+    ],
+    image: images.portraitCasual,
+    relatedPractice: { label: "Divorce", href: "/family-law/divorce" },
+    body: [
+      {
+        type: "p",
+        text: "Divorce can take many months, and life doesn't stop while you wait. A common question is whether it's okay to start dating before the divorce is final. Legally, California's no-fault system means dating generally won't prevent or derail your divorce — but there are practical risks worth understanding.",
+      },
+      { type: "h2", text: "The legal side: no-fault" },
+      {
+        type: "p",
+        text: "Because California doesn't require proving wrongdoing, dating during divorce typically isn't a legal basis to penalize you in the divorce itself. You're not going to lose your fair share of property simply because you started seeing someone.",
+      },
+      { type: "h2", text: "The practical risks" },
+      {
+        type: "ul",
+        items: [
+          "Custody concerns — introducing children to a new partner too soon, or exposing them to conflict, can become an issue if it affects their well-being",
+          "Spending community money — lavishing marital funds on a new partner can raise fiduciary-duty concerns",
+          "Higher conflict — a new relationship often inflames an already tense divorce, making settlement harder and more expensive",
+        ],
+      },
+      {
+        type: "callout",
+        title: "Thinking about dating before it's final?",
+        text: "A quick, honest conversation with Rachel can help you avoid the pitfalls that turn a personal choice into a legal headache.",
+      },
+      { type: "h2", text: "A cautious approach" },
+      {
+        type: "p",
+        text: "If you do date, discretion helps: keep new relationships away from the children until things settle, avoid spending community funds on a new partner, and keep the focus of your case on property, support, and your kids. When custody is involved especially, what seems like a private choice can become evidence.",
+      },
+      {
+        type: "links",
+        title: "Related reading",
+        items: [
+          { label: "Does adultery affect divorce in California?", href: "/blog/does-adultery-affect-divorce-california" },
+          { label: "Can social media hurt my custody case?", href: "/blog/social-media-custody-case-california" },
+          { label: "Rachel's Ventura divorce practice", href: "/family-law/divorce" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Is it legal to date before my divorce is final in California?",
+        a: "Yes. California is a no-fault state, so dating during divorce generally won't prevent your divorce or, by itself, cost you your fair share of property. The risks are mostly practical.",
+      },
+      {
+        q: "Can dating affect my custody case?",
+        a: "It can, if it affects the children's well-being — for example, introducing a new partner too soon or exposing kids to conflict. Courts focus on the best interests of the child.",
+      },
+      {
+        q: "Can spending money on a new partner hurt me in divorce?",
+        a: "Potentially. Using community funds on a new relationship can raise breach-of-fiduciary-duty concerns and be factored into the division of assets. It's best to be cautious until the divorce is final.",
+      },
+    ],
+  },
+  {
+    slug: "social-media-custody-case-california",
+    title: "Can Social Media Hurt My Custody Case in California?",
+    metaTitle: "Can Social Media Hurt My Custody Case in California? | Rachel Reed Law",
+    description:
+      "Your posts can become evidence. A Ventura custody attorney explains how social media can affect a California custody case and how to protect yourself.",
+    excerpt:
+      "That post, photo, or comment can end up in front of a judge. Here's how social media can hurt a California custody case — and the simple rules to protect yourself.",
+    category: "Family Law",
+    date: "2026-06-07",
+    keywords: [
+      "social media custody case California",
+      "Facebook divorce evidence California",
+      "social media and child custody California",
+    ],
+    image: images.portraitWalking,
+    relatedPractice: { label: "Child Custody", href: "/family-law/child-custody" },
+    body: [
+      {
+        type: "p",
+        text: "In custody disputes, social media has become a goldmine of evidence — and a minefield for the unwary. A single post, photo, or comment can be screenshotted and used to question your judgment as a parent. The short answer is yes: social media can absolutely hurt your custody case.",
+      },
+      { type: "h2", text: "How posts become evidence" },
+      {
+        type: "p",
+        text: "The other side's attorney can use your public posts — and sometimes private ones obtained through proper channels — to paint a picture for the judge. Photos of partying, angry rants about your co-parent, new purchases that contradict your claimed finances, or anything suggesting poor judgment around the children can all come back to haunt you.",
+      },
+      { type: "h2", text: "Privacy settings won't fully protect you" },
+      {
+        type: "callout",
+        title: "Assume a judge will see it.",
+        text: "Private settings, mutual friends, and lawful discovery mean 'private' posts often aren't. The safest rule: don't post anything you wouldn't want read aloud in court.",
+      },
+      { type: "h2", text: "Simple rules during a custody case" },
+      {
+        type: "ul",
+        items: [
+          "Don't post about your case, your ex, or the court process",
+          "Avoid photos involving alcohol, partying, or risky behavior",
+          "Don't post about new purchases if your finances are at issue",
+          "Be cautious about introducing or showcasing a new partner",
+          "Don't delete existing posts without asking your attorney — that can be spoliation",
+          "Tighten your privacy settings, but don't rely on them",
+        ],
+      },
+      { type: "h2", text: "When in doubt, stay offline" },
+      {
+        type: "p",
+        text: "The simplest protection during a custody dispute is to dramatically reduce your social media use until it's resolved. Nothing you post will help your case — but plenty could hurt it.",
+      },
+      {
+        type: "links",
+        title: "Related reading",
+        items: [
+          { label: "How is child custody decided in Ventura County?", href: "/blog/how-child-custody-is-decided-ventura-county" },
+          { label: "Can my ex record me without my consent in California?", href: "/blog/ex-record-me-without-consent-california" },
+          { label: "Rachel's child custody practice", href: "/family-law/child-custody" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Can social media posts be used against me in a custody case?",
+        a: "Yes. Posts, photos, and comments can be used as evidence to question your judgment as a parent. This includes content suggesting partying, conflict, hidden finances, or poor decisions around the children.",
+      },
+      {
+        q: "Are my private social media posts safe in a custody case?",
+        a: "Not necessarily. Privacy settings, mutual connections, and lawful discovery mean 'private' content often surfaces. Assume a judge could see anything you post.",
+      },
+      {
+        q: "Should I delete my social media during a custody case?",
+        a: "Reduce your activity, but don't delete existing posts without consulting your attorney — deleting potentially relevant content can be considered spoliation and can hurt you. Tighten settings and stop posting instead.",
+      },
+    ],
+  },
 ];
 
 export const postsBySlug = new Map(posts.map((p) => [p.slug, p]));

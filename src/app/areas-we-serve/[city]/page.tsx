@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getLocation, locations } from "@/lib/locations";
 import { getPillars } from "@/lib/practices";
-import { comboPractices, isComboCity } from "@/lib/combos";
+import { getCityComboPractices, isComboCity } from "@/lib/combos";
 import { reviews } from "@/lib/reviews";
 import { site } from "@/lib/site";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -102,7 +102,7 @@ export default async function CityPage({
             </h2>
             {isComboCity(loc.slug) ? (
               <div className="mt-6 grid gap-4 sm:grid-cols-2">
-                {comboPractices.map((c) => (
+                {getCityComboPractices(loc.slug).map((c) => (
                   <Link
                     key={c.slug}
                     href={`/areas-we-serve/${loc.slug}/${c.slug}`}

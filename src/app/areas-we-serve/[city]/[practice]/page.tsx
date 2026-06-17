@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getComboParams, getComboPractice } from "@/lib/combos";
+import { getComboParams, getComboPractice, isValidCombo } from "@/lib/combos";
 import { getLocation } from "@/lib/locations";
 import { getPractice } from "@/lib/practices";
 import { reviews } from "@/lib/reviews";
@@ -26,7 +26,7 @@ export function generateStaticParams() {
 function resolve(citySlug: string, practiceSlug: string) {
   const loc = getLocation(citySlug);
   const combo = getComboPractice(practiceSlug);
-  if (!loc || !combo) return null;
+  if (!loc || !combo || !isValidCombo(citySlug, practiceSlug)) return null;
   const practice = getPractice(combo.practicePath);
   if (!practice) return null;
   return { loc, combo, practice };
