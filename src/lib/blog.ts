@@ -2384,6 +2384,467 @@ export const posts: Post[] = [
       },
     ],
   },
+
+  /* ---------- Criminal-defense cluster (batch 6) ---------- */
+  {
+    slug: "what-happens-first-dui-court-date-ventura-county",
+    title: "What Happens at Your First DUI Court Date in Ventura County",
+    metaTitle: "What Happens at Your First DUI Court Date in Ventura County | Rachel Reed Law",
+    description:
+      "Your first DUI court date is the arraignment. A Ventura DUI attorney explains what to expect, what a plea means, and why your first appearance matters.",
+    excerpt:
+      "Your first DUI court date — the arraignment — sets the tone for your whole case. Here's exactly what happens, what your options are, and why pleading isn't a decision to make blindly.",
+    category: "Criminal Defense",
+    date: "2026-04-10",
+    keywords: [
+      "first DUI court date Ventura County",
+      "DUI arraignment California",
+      "what happens at DUI arraignment",
+    ],
+    image: images.portraitWalking,
+    relatedPractice: { label: "DUI Defense", href: "/criminal-defense/dui" },
+    body: [
+      {
+        type: "p",
+        text: "If you've been charged with a DUI in Ventura County, your first court date is called the arraignment, and it usually feels more intimidating than it needs to be. Knowing what happens — and what's actually being decided — helps you walk in prepared rather than anxious.",
+      },
+      { type: "h2", text: "What the arraignment is" },
+      {
+        type: "p",
+        text: "The arraignment is your first appearance before the court at the Ventura courthouse. At it, you're formally told the charges against you, and you're asked to enter a plea: guilty, not guilty, or no contest. The court also addresses bail or your release status and sets future court dates.",
+      },
+      { type: "h2", text: "Why you usually shouldn't plead guilty at the arraignment" },
+      {
+        type: "callout",
+        title: "Pleading guilty too early gives away your leverage.",
+        text: "Before anyone pleads, your attorney needs to review the evidence — the stop, the testing, the reports. A 'not guilty' plea simply preserves your options while that happens.",
+      },
+      {
+        type: "p",
+        text: "It's common — and usually wise — to enter a not guilty plea at arraignment. That doesn't mean you're claiming you did nothing; it means you're not giving up your rights before your attorney has reviewed the evidence and identified any weaknesses or defenses. Pleading guilty at the first appearance throws away that opportunity.",
+      },
+      { type: "h2", text: "Getting the evidence (discovery)" },
+      {
+        type: "p",
+        text: "After the arraignment, your attorney requests 'discovery' — the police reports, the results of any breath or blood testing, and other evidence. This is where the real defense work begins: scrutinizing whether the stop was lawful, whether testing was done correctly, and whether your rights were respected.",
+      },
+      { type: "h2", text: "Don't forget the separate DMV clock" },
+      {
+        type: "p",
+        text: "Remember that a DUI involves two cases — the court case and a separate DMV process with its own short deadline (generally 10 days from arrest) to request a hearing. The arraignment is part of the court case; the DMV side needs to be handled in parallel.",
+      },
+      {
+        type: "links",
+        title: "Related reading",
+        items: [
+          { label: "Arrested for DUI? The first 10 days matter most", href: "/blog/arrested-dui-ventura-county-first-10-days" },
+          { label: "Can a DUI be dismissed in California?", href: "/blog/can-a-dui-be-dismissed-california" },
+          { label: "Rachel's Ventura DUI defense practice", href: "/criminal-defense/dui" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "What is a DUI arraignment?",
+        a: "It's your first court appearance, where you're told the charges and asked to enter a plea (guilty, not guilty, or no contest). The court also addresses bail or release and sets future dates.",
+      },
+      {
+        q: "Should I plead guilty at my first DUI court date?",
+        a: "Usually not. Entering a not guilty plea preserves your rights and options while your attorney reviews the evidence. Pleading guilty at the arraignment gives up leverage before the case is evaluated.",
+      },
+      {
+        q: "Do I have to attend my DUI arraignment?",
+        a: "In many misdemeanor cases an attorney can appear on your behalf, but it depends on the charges and the court. Talk to a DUI attorney about whether your appearance is required.",
+      },
+    ],
+  },
+  {
+    slug: "second-third-dui-penalties-california",
+    title: "Second & Third DUI in California: The Penalties You're Facing",
+    metaTitle: "Second & Third DUI Penalties in California | Rachel Reed Law",
+    description:
+      "Repeat DUIs carry escalating penalties in California within a 10-year window. A Ventura DUI attorney explains what a 2nd or 3rd DUI means and how to fight it.",
+    excerpt:
+      "California counts prior DUIs within a 10-year window — and the penalties climb steeply. Here's what a second or third DUI really means, and why defense matters even more.",
+    category: "Criminal Defense",
+    date: "2026-04-17",
+    keywords: [
+      "second DUI California penalties",
+      "third DUI California",
+      "repeat DUI Ventura attorney",
+    ],
+    image: images.portraitWalking,
+    relatedPractice: { label: "DUI Defense", href: "/criminal-defense/dui" },
+    body: [
+      {
+        type: "p",
+        text: "A first DUI is serious; a second or third is far more so. California uses a 10-year 'lookback' period, meaning prior DUI convictions within the past 10 years count as priors and trigger escalating, often mandatory, penalties. If you're facing a repeat DUI, understanding what's at stake — and mounting a strong defense — matters more than ever.",
+      },
+      { type: "h2", text: "The 10-year lookback" },
+      {
+        type: "p",
+        text: "California counts prior DUI (and certain related) convictions within 10 years. A DUI that would be a 'first' if it stood alone becomes a 'second' or 'third' if you have qualifying priors in that window, which sharply increases the consequences.",
+      },
+      { type: "h2", text: "What a second DUI generally carries" },
+      {
+        type: "ul",
+        items: [
+          "Mandatory jail time (well beyond a first offense)",
+          "A longer driver's license suspension — often around two years",
+          "An extended DUI program (commonly 18 to 30 months)",
+          "Higher fines, probation, and likely an ignition interlock device",
+        ],
+      },
+      { type: "h2", text: "What a third DUI generally carries" },
+      {
+        type: "ul",
+        items: [
+          "Significantly more jail time",
+          "A multi-year license revocation (often three years)",
+          "Possible designation as a 'habitual traffic offender'",
+          "The longest DUI program, plus fines and an interlock requirement",
+        ],
+      },
+      {
+        type: "callout",
+        title: "Priors can sometimes be challenged.",
+        text: "Whether a prior truly counts — and whether the current charges hold up — are exactly the questions a defense attorney examines. Don't assume the worst before your case is reviewed.",
+      },
+      { type: "h2", text: "Why defense matters even more on a repeat DUI" },
+      {
+        type: "p",
+        text: "Because the penalties escalate so steeply, the value of a strong defense rises too. The same issues that can undermine a first DUI — an unlawful stop, faulty testing, procedural errors — apply here, and the validity of the prior convictions themselves can sometimes be challenged. Reducing a charge or defeating a prior can dramatically change the outcome.",
+      },
+      {
+        type: "links",
+        title: "Related reading",
+        items: [
+          { label: "Can a DUI be dismissed in California?", href: "/blog/can-a-dui-be-dismissed-california" },
+          { label: "Can you refuse a breathalyzer in California?", href: "/blog/can-you-refuse-a-breathalyzer-california" },
+          { label: "Rachel's Ventura DUI defense practice", href: "/criminal-defense/dui" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How long does a DUI stay on your record in California for sentencing?",
+        a: "California uses a 10-year 'lookback' period for DUI priors. A prior DUI conviction within 10 years counts and increases the penalties for a new DUI, making it a second or third offense.",
+      },
+      {
+        q: "Will I go to jail for a second DUI in California?",
+        a: "A second DUI generally carries mandatory jail time, a longer license suspension (often around two years), an extended DUI program, and other penalties. The specifics depend on the facts, which is why a strong defense matters.",
+      },
+      {
+        q: "Can a prior DUI be challenged?",
+        a: "Sometimes. Whether a prior conviction validly counts can be examined, along with the strength of the current charges. An attorney can evaluate whether a prior can be challenged or the new charge reduced.",
+      },
+    ],
+  },
+  {
+    slug: "can-a-dui-be-dismissed-california",
+    title: "Can a DUI Be Dismissed in California?",
+    metaTitle: "Can a DUI Be Dismissed in California? | Rachel Reed Law",
+    description:
+      "Yes — DUIs can be dismissed or reduced in California under the right facts. A Ventura DUI attorney explains the defenses that can break down a DUI case.",
+    excerpt:
+      "A DUI charge is not a conviction. From unlawful stops to faulty breath tests, here are the ways a California DUI can be dismissed or reduced — and why it's worth fighting.",
+    category: "Criminal Defense",
+    date: "2026-04-24",
+    keywords: [
+      "can a DUI be dismissed California",
+      "DUI defenses California",
+      "get DUI dismissed Ventura",
+    ],
+    image: images.portraitCasual,
+    relatedPractice: { label: "DUI Defense", href: "/criminal-defense/dui" },
+    body: [
+      {
+        type: "p",
+        text: "Many people assume that a DUI arrest automatically means a conviction. It doesn't. DUI cases rest on a chain of evidence — the stop, the field sobriety tests, the chemical testing, the procedures — and a weakness anywhere in that chain can lead to reduced charges or even a dismissal. Here are the most common ways a DUI can fall apart.",
+      },
+      { type: "h2", text: "Was the traffic stop lawful?" },
+      {
+        type: "p",
+        text: "Police need a valid reason to pull you over. If the stop wasn't lawful, the evidence gathered afterward may be suppressed — and without that evidence, the prosecution's case can collapse.",
+      },
+      { type: "h2", text: "Were the tests reliable?" },
+      {
+        type: "ul",
+        items: [
+          "Field sobriety tests are subjective and affected by nerves, footwear, medical conditions, and uneven ground",
+          "Breath machines must be properly calibrated and operated — errors happen",
+          "'Rising blood alcohol' can mean your BAC was lower while driving than when tested",
+          "Medical conditions and certain diets can affect breath-test results",
+        ],
+      },
+      { type: "h2", text: "Were your rights respected?" },
+      {
+        type: "p",
+        text: "Procedural mistakes — from how the testing was handled to whether your rights were honored — can all provide grounds to challenge the case.",
+      },
+      { type: "h2", text: "Reduction as an alternative to dismissal" },
+      {
+        type: "callout",
+        title: "Even if dismissal isn't possible, reduction often is.",
+        text: "A DUI can sometimes be negotiated down to a lesser charge like a 'wet reckless,' which carries lighter consequences. Every avenue is worth exploring.",
+      },
+      {
+        type: "p",
+        text: "Not every case ends in dismissal, but a charge that can't be dismissed can sometimes be reduced — for example, to a 'wet reckless' — which has lighter penalties and looks better on your record. An honest case review will tell you which outcomes are realistic for you.",
+      },
+      {
+        type: "links",
+        title: "Related reading",
+        items: [
+          { label: "Arrested for DUI? The first 10 days matter most", href: "/blog/arrested-dui-ventura-county-first-10-days" },
+          { label: "What happens at your first DUI court date", href: "/blog/what-happens-first-dui-court-date-ventura-county" },
+          { label: "Rachel's Ventura DUI defense practice", href: "/criminal-defense/dui" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Can a first-time DUI be dismissed in California?",
+        a: "Yes, depending on the facts. Issues with the stop, the field sobriety or chemical testing, or the procedures can lead to suppression of evidence and dismissal — or to a reduced charge such as a wet reckless.",
+      },
+      {
+        q: "What is a 'wet reckless'?",
+        a: "A wet reckless is a lesser charge a DUI can sometimes be reduced to through negotiation. It generally carries lighter penalties than a DUI and can be a favorable outcome when full dismissal isn't possible.",
+      },
+      {
+        q: "How do I know if my DUI can be challenged?",
+        a: "An attorney reviews the police reports, testing records, and procedures to identify weaknesses. A free case evaluation can tell you whether dismissal or reduction is realistic in your case.",
+      },
+    ],
+  },
+  {
+    slug: "what-to-do-if-arrested-ventura-county",
+    title: "What to Do If You're Arrested in Ventura County",
+    metaTitle: "What to Do If You're Arrested in Ventura County | Rachel Reed Law",
+    description:
+      "Arrested in Ventura County? A criminal defense attorney explains your rights and the critical dos and don'ts that protect you in the first hours and days.",
+    excerpt:
+      "What you do in the first hours after an arrest can shape your entire case. Here are the rights you have — and the mistakes to avoid — if you're arrested in Ventura County.",
+    category: "Criminal Defense",
+    date: "2026-05-01",
+    keywords: [
+      "what to do if arrested California",
+      "rights when arrested Ventura County",
+      "Ventura criminal defense attorney",
+    ],
+    image: images.portraitWalking,
+    relatedPractice: { label: "Criminal Defense", href: "/criminal-defense" },
+    body: [
+      {
+        type: "p",
+        text: "Being arrested is frightening and disorienting, and in that moment it's easy to make mistakes that hurt your case. The good news is that you have powerful rights — if you use them. Here's what to do, and what to avoid, if you're arrested in Ventura County.",
+      },
+      { type: "h2", text: "Use your right to remain silent" },
+      {
+        type: "p",
+        text: "You are not required to answer questions about your case, and you shouldn't. Politely state that you wish to remain silent and that you want a lawyer. Even explanations you think are helpful can be twisted and used against you. Silence is not an admission of guilt — it's your constitutional right.",
+      },
+      { type: "h2", text: "Ask for a lawyer — clearly" },
+      {
+        type: "callout",
+        title: "Say it out loud: 'I want a lawyer.'",
+        text: "Once you clearly ask for an attorney, questioning is supposed to stop. Don't be talked out of it, and don't keep chatting after you've asked.",
+      },
+      { type: "h2", text: "Don't consent to searches" },
+      {
+        type: "p",
+        text: "You can decline to consent to a search of your car, phone, or home. Officers may search anyway under certain circumstances, but you do not have to give permission — and whether a search was lawful can become a key issue in your defense.",
+      },
+      { type: "h2", text: "The dos and don'ts" },
+      {
+        type: "ul",
+        items: [
+          "Do stay calm and keep your hands visible; never resist, even if you believe the arrest is wrong",
+          "Don't argue, run, or give a false name",
+          "Don't discuss your case on jail phones — those calls are recorded",
+          "Don't post about it on social media",
+          "Do contact a criminal defense attorney as soon as possible",
+        ],
+      },
+      { type: "h2", text: "Why calling a lawyer early matters" },
+      {
+        type: "p",
+        text: "Some of the most important defense work happens early — sometimes before charges are even filed. The sooner an attorney is involved, the more they can do to protect your rights and shape what comes next.",
+      },
+      {
+        type: "links",
+        title: "Related reading",
+        items: [
+          { label: "Misdemeanor vs. felony in California", href: "/blog/misdemeanor-vs-felony-california" },
+          { label: "Falsely accused of domestic violence: what to do next", href: "/blog/falsely-accused-domestic-violence-ventura-county" },
+          { label: "Rachel's Ventura criminal defense practice", href: "/criminal-defense" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Do I have to answer police questions if I'm arrested?",
+        a: "No. You have the right to remain silent. Politely state that you're invoking that right and that you want a lawyer, and avoid discussing your case. Anything you say can be used against you.",
+      },
+      {
+        q: "Can I refuse a search when I'm arrested?",
+        a: "You can decline to consent to a search of your car, phone, or home. Police may still search under certain legal circumstances, but you don't have to give permission, and the lawfulness of a search can be challenged later.",
+      },
+      {
+        q: "When should I call a criminal defense lawyer?",
+        a: "As soon as possible. Early representation can protect your rights and influence the case before charges are even filed. Avoid discussing your case with anyone until you've spoken with an attorney.",
+      },
+    ],
+  },
+  {
+    slug: "can-you-refuse-a-breathalyzer-california",
+    title: "Can You Refuse a Breathalyzer in California?",
+    metaTitle: "Can You Refuse a Breathalyzer in California? | Rachel Reed Law",
+    description:
+      "Refusing a breath test in California has consequences under the implied consent law. A Ventura DUI attorney explains the difference between the roadside and post-arrest tests.",
+    excerpt:
+      "Can you say no to a breathalyzer in California? It depends which test — and refusing the wrong one triggers an automatic license suspension. Here's the nuance.",
+    category: "Criminal Defense",
+    date: "2026-05-08",
+    keywords: [
+      "can you refuse a breathalyzer California",
+      "implied consent California DUI",
+      "refusing breath test California penalties",
+    ],
+    image: images.portraitCasual,
+    relatedPractice: { label: "DUI Defense", href: "/criminal-defense/dui" },
+    body: [
+      {
+        type: "p",
+        text: "It's one of the most misunderstood questions in DUI law: can you refuse a breathalyzer in California? The answer depends on which test you're talking about — and getting it wrong can cost you your license. Here's the distinction that matters.",
+      },
+      { type: "h2", text: "Two different breath tests" },
+      {
+        type: "p",
+        text: "There's a roadside, pre-arrest breath test (the handheld 'PAS' device used during the investigation) and a post-arrest chemical test (breath or blood) given after you've been arrested. They're treated very differently under the law.",
+      },
+      { type: "h2", text: "The pre-arrest roadside (PAS) test" },
+      {
+        type: "p",
+        text: "For most adult drivers 21 and over who are not already on DUI probation, the handheld roadside breath test is generally optional — it's part of the officer's investigation, like field sobriety tests. (Drivers under 21 and those on DUI probation are treated differently.) Many people don't realize they can usually decline this roadside test.",
+      },
+      { type: "h2", text: "The post-arrest chemical test and 'implied consent'" },
+      {
+        type: "callout",
+        title: "After arrest, refusing carries automatic penalties.",
+        text: "California's implied consent law means that by driving, you've agreed to chemical testing if lawfully arrested for DUI. Refusing the post-arrest test triggers an automatic license suspension and can add penalties.",
+      },
+      {
+        type: "p",
+        text: "Once you're lawfully arrested for DUI, California's implied consent law applies: refusing the required chemical test (breath or blood) typically results in an automatic driver's license suspension (often a year for a first refusal) and can add penalties on top of the DUI itself. This is very different from declining the optional roadside device.",
+      },
+      { type: "h2", text: "Refusal cases are still defensible" },
+      {
+        type: "p",
+        text: "A refusal allegation isn't the end of the story. Whether the arrest was lawful, whether you were properly admonished about the consequences, and how the refusal was handled can all be challenged. If you're facing a refusal enhancement, an attorney can assess your options.",
+      },
+      {
+        type: "links",
+        title: "Related reading",
+        items: [
+          { label: "Arrested for DUI? The first 10 days matter most", href: "/blog/arrested-dui-ventura-county-first-10-days" },
+          { label: "Can a DUI be dismissed in California?", href: "/blog/can-a-dui-be-dismissed-california" },
+          { label: "Rachel's Ventura DUI defense practice", href: "/criminal-defense/dui" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Can I refuse the roadside breathalyzer in California?",
+        a: "For most drivers 21 and over who aren't on DUI probation, the handheld roadside (PAS) breath test is generally optional, like field sobriety tests. Drivers under 21 and those on DUI probation are treated differently.",
+      },
+      {
+        q: "What happens if I refuse a breath test after being arrested?",
+        a: "Under California's implied consent law, refusing the required post-arrest chemical test typically triggers an automatic license suspension (often a year for a first refusal) and can add penalties to a DUI. This differs from the optional roadside device.",
+      },
+      {
+        q: "Can a refusal charge be challenged?",
+        a: "Yes. Whether the arrest was lawful, whether you were properly warned of the consequences, and how the refusal was documented can all be challenged. An attorney can evaluate your case.",
+      },
+    ],
+  },
+  {
+    slug: "penal-code-273-5-domestic-violence-charges-california",
+    title: "Penal Code 273.5: California Domestic Violence Charges Explained",
+    metaTitle: "Penal Code 273.5: California Domestic Violence Charges | Rachel Reed Law",
+    description:
+      "Charged under Penal Code 273.5? A Ventura defense attorney explains California's corporal injury law, the penalties, and how these charges are defended.",
+    excerpt:
+      "Penal Code 273.5 — corporal injury to a spouse or partner — is one of California's most serious domestic violence charges. Here's what it means and how it's defended.",
+    category: "Criminal Defense",
+    date: "2026-05-15",
+    keywords: [
+      "Penal Code 273.5 California",
+      "corporal injury spouse California",
+      "domestic violence defense Ventura",
+    ],
+    image: images.portraitWalking,
+    relatedPractice: { label: "Domestic Violence Defense", href: "/criminal-defense/domestic-violence" },
+    body: [
+      {
+        type: "p",
+        text: "If you've been charged under Penal Code 273.5, you're facing one of California's most serious domestic violence offenses. Understanding what the law actually requires — and how these cases are defended — is the first step to protecting your future.",
+      },
+      { type: "h2", text: "What Penal Code 273.5 covers" },
+      {
+        type: "p",
+        text: "Penal Code 273.5 makes it a crime to inflict a 'corporal injury resulting in a traumatic condition' on an intimate partner — such as a current or former spouse, a cohabitant, a fiancé(e), or the co-parent of your child. The key element is an actual injury, even a minor one. This is different from domestic battery under Penal Code 243(e)(1), which doesn't require a visible injury.",
+      },
+      { type: "h2", text: "It's a 'wobbler' — and the penalties are serious" },
+      {
+        type: "p",
+        text: "Penal Code 273.5 is a 'wobbler,' meaning it can be charged as either a misdemeanor or a felony depending on the circumstances and your record. A conviction can carry jail or prison time, fines, a protective order, mandatory completion of a batterer's intervention program, and a loss of firearm rights — plus serious effects on custody and immigration.",
+      },
+      {
+        type: "callout",
+        title: "These charges often arise from one person's word.",
+        text: "Domestic violence cases are frequently filed on a single account, sometimes amid a breakup or custody fight. An accusation is not proof — and a careful defense can expose the full story.",
+      },
+      { type: "h2", text: "How these cases are defended" },
+      {
+        type: "ul",
+        items: [
+          "Self-defense or defense of others",
+          "The injury was an accident, not intentional",
+          "False or exaggerated allegations, including motive to fabricate",
+          "Insufficient evidence to prove the charge beyond a reasonable doubt",
+        ],
+      },
+      { type: "h2", text: "The prosecutor decides — not the accuser" },
+      {
+        type: "p",
+        text: "An important point: in California, the prosecutor, not the alleged victim, decides whether to pursue charges. Even if the accuser wants to 'drop it,' the case can move forward — which is why you need a serious defense from the start.",
+      },
+      {
+        type: "links",
+        title: "Related reading",
+        items: [
+          { label: "Falsely accused of domestic violence: what to do next", href: "/blog/falsely-accused-domestic-violence-ventura-county" },
+          { label: "What to do if you're arrested in Ventura County", href: "/blog/what-to-do-if-arrested-ventura-county" },
+          { label: "Rachel's domestic violence defense practice", href: "/criminal-defense/domestic-violence" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "What is the difference between PC 273.5 and PC 243(e)(1)?",
+        a: "Penal Code 273.5 (corporal injury) requires an actual injury — a 'traumatic condition' — and is more serious, often charged as a felony. Penal Code 243(e)(1) (domestic battery) does not require a visible injury and is a misdemeanor.",
+      },
+      {
+        q: "Is Penal Code 273.5 a felony?",
+        a: "It's a 'wobbler,' meaning it can be charged as a misdemeanor or a felony depending on the circumstances and the defendant's record. The distinction has a major effect on potential penalties.",
+      },
+      {
+        q: "Can a 273.5 charge be dropped if the accuser recants?",
+        a: "Not automatically. In California, the prosecutor decides whether to pursue charges, not the alleged victim, so a case can proceed even if the accuser wants to drop it. A defense attorney is still essential.",
+      },
+    ],
+  },
 ];
 
 export const postsBySlug = new Map(posts.map((p) => [p.slug, p]));
